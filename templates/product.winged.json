@@ -149,6 +149,56 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_EcxpFh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DUKBfX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Winged Perfection",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_jrFh7h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DUKBfX",
+        "text_jrFh7h"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "scrolling_promotion_6Xj9FQ": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -181,32 +231,135 @@
         "padding_bottom": 20
       }
     },
-    "featured_collection_fyzE6c": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Wings every girl dreams about",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Imagine effortlessly creating flawless, symmetrical winged eyeliner in seconds—no more <strong>shaky </strong>hands, <strong>uneven </strong>lines, or countless <strong>attempts</strong> to get both eyes to match.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "collection": "frontpage",
-        "products_to_show": 12,
-        "horizontal_scroll": false,
-        "show_view_all": true,
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
         "show_divider": false,
-        "heading": "Charms",
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff27ae",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faq_8HKrFX": {
+      "type": "faq",
+      "blocks": {
+        "question_dahem4": {
+          "type": "question",
+          "settings": {
+            "title": "Will it actually work for beginners?",
+            "text": "<p>Yes. The stamp is designed specifically for beginners. One press creates the wing shape, and the liner side connects it smoothly — no skills, no practice needed.</p>"
+          }
+        },
+        "question_AE8axB": {
+          "type": "question",
+          "settings": {
+            "title": "What if my eyes are different shapes or sizes?",
+            "text": "<p>The stamp works on all eye shapes. Because you control the angle and pressure, you can slightly adjust the wing to suit your eye while still keeping both sides balanced.</p>"
+          }
+        },
+        "question_zAKeDz": {
+          "type": "question",
+          "settings": {
+            "title": "Is the liner waterproof or will it smudge?",
+            "text": "<p>The formula is waterproof, smudge-resistant, and long-lasting. It stays clean through heat, sweat, and long days without fading or transferring.</p>"
+          }
+        },
+        "question_C7p7Br": {
+          "type": "question",
+          "settings": {
+            "title": "How long does one eyeliner last?",
+            "text": "<p>With normal daily use, one stamp lasts for weeks. Because the application is precise, you don’t waste product like traditional liners.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dahem4",
+        "question_AE8axB",
+        "question_zAKeDz",
+        "question_C7p7Br"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Frequently asked questions",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": false,
-        "secondary_image_max": 1,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -216,7 +369,10 @@
     "empty-space",
     "main",
     "product-recommendations",
+    "image_with_text_EcxpFh",
     "scrolling_promotion_6Xj9FQ",
-    "featured_collection_fyzE6c"
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt",
+    "faq_8HKrFX"
   ]
 }
