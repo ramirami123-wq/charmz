@@ -38,7 +38,7 @@
         "announcement_aG3eeL"
       ],
       "settings": {
-        "only_homepage": true,
+        "only_homepage": false,
         "layout": "default",
         "mobile_layout": "marquee",
         "autorotate": true,
