@@ -74,16 +74,6 @@
           "type": "rating",
           "settings": {}
         },
-        "countdown_r8nfKh": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up ! Sale end in:",
-            "number_size": "compact",
-            "colors_heading": "#da3f3f",
-            "colors_text": "#da3f3f",
-            "colors_background": "#feeeee"
-          }
-        },
         "price_7c3cKU": {
           "type": "price",
           "settings": {
@@ -132,7 +122,6 @@
       "block_order": [
         "title_7PbUaC",
         "rating_AN8Hkq",
-        "countdown_r8nfKh",
         "price_7c3cKU",
         "custom_liquid_9wDUPc",
         "variant_picker_txHV9a",
