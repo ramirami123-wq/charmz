@@ -363,6 +363,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "testimonials_yzCmrJ": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_ai9x6n": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I love how sleek it looks! I can add my favorite charms inside without it feeling bulky or cluttered. It’s like a tiny memory capsule I wear every day.</p>",
+            "author": "Celine ghamloush"
+          }
+        },
+        "testimonial_CRPdFk": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>This solves the problem I always had with charm necklaces — no tangling, no messy clasps. Just open the locket, place the charms, and it looks perfect.</p>",
+            "author": "Line Darwish"
+          }
+        },
+        "testimonial_Ag34fd": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I change the charms depending on my mood or outfit. Sometimes I keep it minimal with one or two, other times I fill it up for a bold look. So versatile!</p>",
+            "author": "Maya khoury"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ai9x6n",
+        "testimonial_CRPdFk",
+        "testimonial_Ag34fd"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": true,
+        "show_divider": false,
+        "heading": "Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -373,6 +420,7 @@
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
-    "faq_8HKrFX"
+    "faq_8HKrFX",
+    "testimonials_yzCmrJ"
   ]
 }
