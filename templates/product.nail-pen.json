@@ -314,6 +314,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "scrolling_promotion_hPdUpR": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_bjtnXd": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_bjtnXd"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "testimonials_dVdqyP": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_jHqk9f": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I usually pay $35+ for gel sets. This saved me so much money. Super glossy and strong — my nails feel way harder.</p>",
+            "author": "Lyn"
+          }
+        },
+        "testimonial_36AMHM": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I’m not good at doing nails at ALL and this was actually easy. It doesn’t run everywhere and gives that thick, smooth salon look.</p>",
+            "author": "Mona"
+          }
+        },
+        "testimonial_8FhddY": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>this is a cute idea &lt;3</p>",
+            "author": "Isabella"
+          }
+        },
+        "testimonial_4cX9fc": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Excellent customer service my daughter loves their products, tysm!</p>",
+            "author": "Joelle"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jHqk9f",
+        "testimonial_36AMHM",
+        "testimonial_8FhddY",
+        "testimonial_4cX9fc"
+      ],
+      "name": "t:sections.testimonials.presets.name",
+      "settings": {
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "hide_images": true,
+        "show_divider": false,
+        "heading": "Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -323,6 +411,8 @@
     "scrolling_promotion_6Xj9FQ",
     "featured_collection_fyzE6c",
     "image_with_text_xwPzVD",
-    "image_with_text_EYWftP"
+    "scrolling_promotion_hPdUpR",
+    "image_with_text_EYWftP",
+    "testimonials_dVdqyP"
   ]
 }
