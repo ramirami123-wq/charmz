@@ -170,8 +170,8 @@
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_background": "#ff27ae",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
