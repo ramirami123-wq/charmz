@@ -214,6 +214,106 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_xwPzVD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3gc4gB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Perfect Nails, Powered by Precision",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_R48K3a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shape, extend, and perfect your nails in minutes with a builder gel formula that levels smoothly and cures into a hard, glossy finish</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3gc4gB",
+        "text_R48K3a"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/buildergloss_3_900x_94586137-43ef-4a9c-bee3-ec7aebb4d442.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EYWftP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hFFpKp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fully Covered",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_wXJFAw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get salon-quality builder gel results at home — now with a <strong>FREE UV Lamp</strong> to lock in that glossy, long-lasting finish. No extra tools, no extra cost. Just smooth, chip-resistant nails cured in minutes and ready to shine.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hFFpKp",
+        "text_wXJFAw"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ChatGPT_Image_Feb_13_2026_02_10_55_PM.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -221,6 +321,8 @@
     "main",
     "product-recommendations",
     "scrolling_promotion_6Xj9FQ",
-    "featured_collection_fyzE6c"
+    "featured_collection_fyzE6c",
+    "image_with_text_xwPzVD",
+    "image_with_text_EYWftP"
   ]
 }
