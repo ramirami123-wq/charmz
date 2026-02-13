@@ -45,10 +45,16 @@
             "sale_badge_basis": "auto"
           }
         },
+        "custom_liquid_7rcCqJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 6px 10px; text-align: left; background-color: #f5f5f5; font-size: 12px; border-radius: 8px; margin-top: 6px; margin-bottom: 6px; display: flex; align-items: center; width: 85%;\">\n\n  <!-- Image -->\n  <span style=\"margin-right: 10px; flex-shrink: 0;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0630/3875/0816/files/uv-lamp.jpg\" alt=\"UV Lamp\" style=\"height: 50px; border-radius: 6px;\">\n  </span>\n\n  <!-- Text -->\n  <span style=\"flex: 1;\">\n    <strong>FREE UV Lamp</strong> with <strong>every purchase</strong>: <br>\n    <em>Perfect curing for long-lasting shine</em> <br>\n    <span style=\"text-decoration: line-through; color: #888;\">$10.00</span> → \n    <span style=\"font-weight: bold; color: #27ae60;\">$0.00</span>\n  </span>\n\n</div>"
+          }
+        },
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">💅 Salon-Perfect Nails at Home</span> – Get smooth, glossy, professional results without paying salon prices.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Long-Lasting Shine</span> – Enjoy chip-resistant nails that stay flawless for days.<br><br>\n\n<span style=\"font-weight: bold;\">⏱ Ready in Minutes</span> – Quick curing gives you beautiful nails fast, even on busy days.<br><br>\n\n<span style=\"font-weight: bold;\">💖 Confident, Polished Look</span> – Feel put-together and elegant anytime, anywhere.\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">💅 Salon-Perfect Nails at Home</span> – Get smooth, glossy, professional results without paying salon prices.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Long-Lasting Shine</span> – Enjoy chip-resistant nails that stay flawless for days.<br><br>\n\n<span style=\"font-weight: bold;\">⏱ Ready in Minutes</span> – Quick curing gives you beautiful nails fast, even on busy days.<br><br>\n\n\n</div>"
           }
         },
         "variant_picker": {
@@ -95,6 +101,7 @@
         "title",
         "rating",
         "price",
+        "custom_liquid_7rcCqJ",
         "custom_liquid_H9DXEK",
         "variant_picker",
         "description",
