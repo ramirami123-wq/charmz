@@ -155,7 +155,7 @@
         "heading_DUKBfX": {
           "type": "heading",
           "settings": {
-            "heading": "Winged Perfection",
+            "heading": "Keep the Glow.",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -163,7 +163,7 @@
         "text_jrFh7h": {
           "type": "text",
           "settings": {
-            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
+            "text": "<p>Get that effortless, sun-kissed freckle look in seconds — no pencils, no precision, no stress. Our multi-point freckle stamp creates perfectly scattered, natural-looking freckles with just one tap. </p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -175,7 +175,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
+        "image": "shopify://shop_images/common__3099-3099-freckle-stamp-light-ALT-1__06.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
