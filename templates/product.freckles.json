@@ -321,29 +321,29 @@
         "question_dahem4": {
           "type": "question",
           "settings": {
-            "title": "Will it actually work for beginners?",
-            "text": "<p>Yes. The stamp is designed specifically for beginners. One press creates the wing shape, and the liner side connects it smoothly — no skills, no practice needed.</p>"
+            "title": "Will it look fake or stamped on?",
+            "text": "<p>No. The multi-point tip creates irregular, natural-looking clusters — just like real sun freckles. You can lightly tap for a subtle effect or layer for more depth.</p>"
           }
         },
         "question_AE8axB": {
           "type": "question",
           "settings": {
-            "title": "What if my eyes are different shapes or sizes?",
-            "text": "<p>The stamp works on all eye shapes. Because you control the angle and pressure, you can slightly adjust the wing to suit your eye while still keeping both sides balanced.</p>"
+            "title": "Is it beginner-friendly? I’m bad at makeup.",
+            "text": "<p>Yes. There’s no drawing, no symmetry, no precision needed. Just tap, blend lightly with your finger if needed, and you’re done.</p>"
           }
         },
         "question_zAKeDz": {
           "type": "question",
           "settings": {
-            "title": "Is the liner waterproof or will it smudge?",
-            "text": "<p>The formula is waterproof, smudge-resistant, and long-lasting. It stays clean through heat, sweat, and long days without fading or transferring.</p>"
+            "title": "Will it smudge or fade during the day?",
+            "text": "<p>The formula is designed to stay put through heat, sweat, and long wear. For extra hold, you can lightly set it with powder or setting spray.</p>"
           }
         },
         "question_C7p7Br": {
           "type": "question",
           "settings": {
-            "title": "How long does one eyeliner last?",
-            "text": "<p>With normal daily use, one stamp lasts for weeks. Because the application is precise, you don’t waste product like traditional liners.</p>"
+            "title": "Will it work on my skin tone?",
+            "text": "<p>The shade is designed to look natural across a wide range of skin tones. It blends into the skin for a realistic finish rather than sitting on top.</p>"
           }
         }
       },
