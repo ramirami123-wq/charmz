@@ -42,7 +42,7 @@
           "settings": {
             "price_size": "medium",
             "show_badges": true,
-            "sale_badge_basis": "auto"
+            "sale_badge_basis": "percentage"
           }
         },
         "custom_liquid_7rcCqJ": {
@@ -444,16 +444,16 @@
         "button_style": "non_outline",
         "image_border_color": "#000000",
         "circle_number_bg_color": "#000000",
-        "number_color": "#FFFFFF",
+        "number_color": "#ffffff",
         "text_color": "#000000",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "#000000",
         "button_bg_hover_color": "#000000",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
         "heading_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
