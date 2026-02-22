@@ -50,7 +50,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-weight:700;\">⏱ Quick Application —</span> A complete winged-liner look in under 10 seconds.\n<br>\n<span style=\"font-weight:700;\">🎯 Perfect Symmetry —</span> Both eyes always look the same, every time.\n<br>\n<span style=\"font-weight:700;\">💧 Smudge-Proof—</span> Stays perfect even in heat, sweat, or after a long day."
+            "custom_liquid": "<span style=\"font-weight:700;\">🌿 Stronger Hairs —</span> Helps your lashes and brows not break easily.\n<br>\n<span style=\"font-weight:700;\">✨ Looks Fuller —</span> Makes them look thicker and healthier over time.\n<br>\n<span style=\"font-weight:700;\">💧 Deep Nourish —</span> Feeds the hairs so they stay soft and shiny.\n<br>\n<span style=\"font-weight:700;\">🛡 Gentle & Safe —</span> Soft formula made for the eye area."
           }
         },
         "variant_picker": {
@@ -155,7 +155,7 @@
         "heading_DUKBfX": {
           "type": "heading",
           "settings": {
-            "heading": "Winged Perfection",
+            "heading": "Naturally Fuller, Stronger Lashes & Brows",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -163,7 +163,7 @@
         "text_jrFh7h": {
           "type": "text",
           "settings": {
-            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
+            "text": "<p>Wake up to lashes and brows that look thicker, healthier, and more defined — without makeup, extensions, or expensive treatments. </p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -175,7 +175,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
+        "image": "shopify://shop_images/Pearl_Cosmetics_17.12.255888.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -187,7 +187,7 @@
         "image_behavior": "none",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "adapt",
+        "mobile_image_ratio": "400px",
         "enable_video_looping": false,
         "video_url": "",
         "use_custom_colors": false,
@@ -258,7 +258,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image": "shopify://shop_images/Pearl_Cosmetics_17.12.256088.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
