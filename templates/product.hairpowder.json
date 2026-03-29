@@ -38,7 +38,7 @@
         "custom_liquid_67EwhU": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product-header\">\n\n  <div class=\"trust-row\">\n    <div class=\"stars\">★★★★★</div>\n    <span class=\"trust-text\">4.8/5 TRUSTED BY 32,000+ MEN</span>\n  </div>\n\n  <h1 class=\"product-title\">RIZEN™ – DENSIFY</h1>\n\n  <div class=\"voted-badge\">\n    <span>🏆</span>\n    <span class=\"badge-text\"><strong style=\"font-weight:900;\">NEW: Voted #1 Best Hair Concealer Of 2025</strong></span>\n  </div>\n\n  <ul class=\"feature-list\">\n    <li><span class=\"check-icon\">✔</span> <strong>Fill bald & thinning spots</strong> instantly</li>\n    <li><span class=\"check-icon\">✔</span> <strong>Sweat & Rain Proof</strong> during +48H</li>\n    <li><span class=\"check-icon\">✔</span> <strong>Looks Like Real Hair,</strong> 100% Undetectable</li>\n  </ul>\n\n</div>"
+            "custom_liquid": "<div class=\"product-header\">\n\n  <div class=\"trust-row\" style=\"white-space: nowrap;\n\">\n    <div class=\"stars\">★★★★★\n    4.8/5 by 538+ ratings</div>\n  </div>\n\n  <h1 class=\"product-title\">RIZEN™ – DENSIFY</h1>\n\n  <div class=\"voted-badge\">\n    <span>🏆</span>\n    <span class=\"badge-text\"><strong style=\"font-weight:900;\">NEW: Voted #1 Best Hair Concealer Of 2025</strong></span>\n  </div>\n\n  <ul class=\"feature-list\">\n    <li><span class=\"check-icon\">✔</span> <strong>Fill bald & thinning spots</strong> instantly</li>\n    <li><span class=\"check-icon\">✔</span> <strong>Sweat & Rain Proof</strong> during +48H</li>\n    <li><span class=\"check-icon\">✔</span> <strong>Looks Like Real Hair,</strong> 100% Undetectable</li>\n  </ul>\n\n</div>"
           }
         },
         "rating": {
