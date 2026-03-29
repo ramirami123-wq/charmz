@@ -78,6 +78,42 @@
         "settings": {
           "show_line_separator": false
         }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-2": {
+            "type": "link_list",
+            "settings": {
+              "heading": "More",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-2"
+        ],
+        "settings": {
+          "show_divider": true,
+          "newsletter_enable": true,
+          "newsletter_heading": "Exclusive benefits",
+          "newsletter_text": "<p>Apply for our free membership to receive exclusive deals, news, and events.</p>",
+          "return_url": "",
+          "enable_follow_on_shop": true,
+          "show_social": true,
+          "social_heading": "",
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "show_policy": false,
+          "copyright_text": "All rights reserved.",
+          "colors_text": "#ffffff",
+          "colors_heading": "#ffffff",
+          "colors_link": "#ffffff",
+          "colors_border": "#ffffff",
+          "colors_background": "#000000",
+          "gradient_background": ""
+        }
       }
     },
     "content_for_index": [],
