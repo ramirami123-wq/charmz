@@ -544,6 +544,7 @@
         "testimonial_8FhddY",
         "testimonial_4cX9fc"
       ],
+      "disabled": true,
       "name": "t:sections.testimonials.presets.name",
       "settings": {
         "autorotate": true,
@@ -554,6 +555,17 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_e7UECD": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .reviews-section {\n    background: #fff5f8;\n    padding: 32px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-stars-row {\n    display: flex;\n    justify-content: center;\n    gap: 8px;\n    margin-bottom: 12px;\n  }\n\n  .reviews-stars {\n    color: #e8a0b4;\n    font-size: 20px;\n  }\n\n  .reviews-rating-text {\n    font-size: 15px;\n    color: #333;\n  }\n\n  .reviews-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    margin-bottom: 24px;\n  }\n\n  .reviews-tabs {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    justify-content: center;\n    margin-bottom: 28px;\n  }\n\n  .reviews-tab {\n    padding: 10px 20px;\n    border-radius: 50px;\n    border: 2px solid #ccc;\n    background: #fff;\n    font-size: 14px;\n    font-weight: 700;\n    cursor: pointer;\n  }\n\n  .reviews-tab.active {\n    background: #c0607a;\n    border-color: #c0607a;\n    color: #fff;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 24px;\n    max-width: 1000px;\n    margin: 0 auto;\n  }\n\n  .review-card {\n    text-align: center;\n  }\n\n  .review-card-stars {\n    color: #e8a0b4;\n    font-size: 18px;\n  }\n\n  .review-card-text {\n    font-size: 14px;\n    color: #222;\n  }\n\n  .review-card-author {\n    font-weight: 700;\n    margin-top: 6px;\n  }\n\n  @media (max-width: 599px) {\n    .reviews-grid {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<div class=\"reviews-section\">\n\n  <div class=\"reviews-stars-row\">\n    <span class=\"reviews-stars\">★★★★★</span>\n    <span class=\"reviews-rating-text\">4.8 stars</span>\n  </div>\n\n  <h2 class=\"reviews-title\">Salon Nails. Zero Stress.</h2>\n\n  <div class=\"reviews-tabs\">\n    <button class=\"reviews-tab active\" onclick=\"switchTab('results', event)\">Results</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('easy', event)\">Easy To Use</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('beginner', event)\">Beginner Friendly</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('lasting', event)\">Long Lasting</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('repurchase', event)\">Would Buy Again</button>\n  </div>\n\n  <div class=\"reviews-grid\" id=\"reviews-grid\"></div>\n\n</div>\n\n<script>\n  const allReviews = {\n    results: [\n      { text: \"My nails looked like I got them done at a salon. So clean and glossy.\", author: \"Lara M.\" },\n      { text: \"The color came out super pretty and smooth. I was honestly impressed.\", author: \"Nour K.\" },\n      { text: \"Such a quick way to get cute nails at home without paying every time.\", author: \"Maya R.\" },\n    ],\n    easy: [\n      { text: \"Very easy to control and apply. The pen makes it way less messy.\", author: \"Rima H.\" },\n      { text: \"So much easier than normal gel bottles and brushes.\", author: \"Sara A.\" },\n      { text: \"Application was simple and fast, even on my non-dominant hand.\", author: \"Dina F.\" },\n    ],\n    beginner: [\n      { text: \"I’m not good at doing nails and this still came out really nice.\", author: \"Hana S.\" },\n      { text: \"Perfect for beginners. I didn’t need any special skill.\", author: \"Tanya M.\" },\n      { text: \"This made home manicures feel actually doable for me.\", author: \"Celine A.\" },\n    ],\n    lasting: [\n      { text: \"Stayed shiny and pretty for days without peeling quickly.\", author: \"Nadine T.\" },\n      { text: \"Didn’t chip fast like regular polish. Huge difference.\", author: \"Rana K.\" },\n      { text: \"Looked fresh much longer than I expected.\", author: \"Joelle B.\" },\n    ],\n    repurchase: [\n      { text: \"Already thinking of getting more shades.\", author: \"Carla N.\" },\n      { text: \"This became part of my routine so fast.\", author: \"Yasmine F.\" },\n      { text: \"Definitely buying again. It saves me time and money.\", author: \"Mirna L.\" },\n    ]\n  };\n\n  function switchTab(tab, event) {\n    document.querySelectorAll('.reviews-tab').forEach(btn => btn.classList.remove('active'));\n    event.target.classList.add('active');\n\n    const reviews = allReviews[tab];\n\n    document.getElementById('reviews-grid').innerHTML = reviews.map(r => `\n      <div class=\"review-card\">\n        <div class=\"review-card-stars\">★★★★★</div>\n        <p class=\"review-card-text\">${r.text}</p>\n        <span class=\"review-card-author\">${r.author}</span>\n      </div>\n    `).join('');\n  }\n\n  switchTab('results', { target: document.querySelector('.reviews-tab') });\n</script>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -570,6 +582,7 @@
     "image_with_text_EYWftP",
     "steps_Ac3L77",
     "scrolling_promotion_NWPJRa",
-    "testimonials_dVdqyP"
+    "testimonials_dVdqyP",
+    "custom_liquid_e7UECD"
   ]
 }
