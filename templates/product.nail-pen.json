@@ -55,7 +55,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">💅 Salon-Perfect Nails at Home</span> – Get smooth, glossy, professional results without paying salon prices.<br><br>\n\n<span style=\"font-weight: bold;\">✨ Long-Lasting Shine</span> – Enjoy chip-resistant nails that stay flawless for days.<br><br>\n\n<span style=\"font-weight: bold;\">⏱ Ready in Minutes</span> – Quick curing gives you beautiful nails fast, even on busy days.<br><br>\n\n\n</div>"
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n  <div style=\"font-weight: 600; margin-bottom: 14px;\">\n    If you can write, you can get salon gel nails at home.\n  </div>\n\n  <div style=\"font-weight: bold; margin-bottom: 10px;\">💅 Salon-Perfect Nails at Home</div>\n\n  <div style=\"font-weight: bold; margin-bottom: 10px;\">✨ Long-Lasting Shine</div>\n\n  <div style=\"font-weight: bold; margin-bottom: 10px;\">⏱ Ready in Minutes</div>\n\n  <div style=\"font-weight: bold; margin-bottom: 10px;\">🖌 3-in-1 Gel Formula</div>\n\n  <div style=\"font-weight: bold;\">🌸 Easy, Damage-Free Removal</div>\n\n</div>"
           }
         },
         "variant_picker": {
