@@ -125,6 +125,9 @@
         "custom_liquid_Hdc7pT",
         "sticky_cart"
       ],
+      "custom_css": [
+        ".product-form__submit {animation: shopifyshake 4s infinite; background-color: #c0607a !important; border-color: #c0607a !important; color: #fff !important;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
