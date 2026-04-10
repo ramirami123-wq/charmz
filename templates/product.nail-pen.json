@@ -84,6 +84,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "custom_liquid_Hdc7pT": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"guarantee-bar\">\n  <style>\n    .guarantee-bar {\n      background-color: #eaf4fb;\n      border: 1.5px solid #b8d9ee;\n      border-radius: 8px;\n      padding: 14px 20px;\n      display: flex;\n      align-items: center;\n      gap: 16px;\n      font-family: 'Helvetica Neue', Arial, sans-serif;\n      width: 100%;\n      box-sizing: border-box;\n    }\n    .guarantee-bar * { box-sizing: border-box; }\n    .guarantee-icon {\n      flex-shrink: 0;\n      width: 42px;\n      height: 42px;\n    }\n    .guarantee-text {\n      font-size: 14px;\n      color: #333;\n      line-height: 1.5;\n    }\n    .guarantee-text strong {\n      font-weight: 700;\n      color: #111;\n    }\n  </style>\n\n  <svg class=\"guarantee-icon\" viewBox=\"0 0 42 42\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <circle cx=\"21\" cy=\"21\" r=\"19.5\" stroke=\"#6ab4d8\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/>\n    <circle cx=\"21\" cy=\"21\" r=\"14\" stroke=\"#6ab4d8\" stroke-width=\"1.2\"/>\n    <polyline points=\"14,21 19,26 28,16\" stroke=\"#6ab4d8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"/>\n  </svg>\n\n  <div class=\"guarantee-text\">\n    Enjoy a <strong>30-day money-back guarantee</strong>, with less than 1% of customers requesting a refund.\n  </div>\n</div>"
+          }
+        },
         "related_buttons": {
           "type": "related_buttons",
           "disabled": true,
@@ -114,6 +120,7 @@
         "variant_picker",
         "description",
         "buy_buttons",
+        "custom_liquid_Hdc7pT",
         "related_buttons",
         "custom_liquid_qpALiV",
         "sticky_cart"
