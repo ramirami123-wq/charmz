@@ -57,7 +57,7 @@
           "type": "variant_picker",
           "settings": {
             "show_variant_labels": true,
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "enable_color_swatches": true,
             "swatches_source": "file",
             "swatch_type": "round",
@@ -92,6 +92,17 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "collapsible_tab_4nMEU7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "SHADE GUIDE",
+            "content": "",
+            "page": "shade-guide",
+            "custom_liquid": "",
+            "keep_open": false
+          }
         }
       },
       "block_order": [
@@ -104,7 +115,8 @@
         "buy_buttons",
         "custom_liquid_PigjTJ",
         "related_buttons",
-        "sticky_cart"
+        "sticky_cart",
+        "collapsible_tab_4nMEU7"
       ],
       "settings": {
         "enable_sticky_info": true,
