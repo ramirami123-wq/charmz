@@ -50,7 +50,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-weight:700;\">⏱ 5-Second Stamp —</span> Instant freckle clusters with one effortless tap.\n<br>\n<span style=\"font-weight:700;\">🌞 Natural Sun-Kissed Look —</span> Creates soft, realistic freckles that blend seamlessly into your skin.\n<br>\n\n<span style=\"font-weight:700;\">💧 Long-Lasting Wear —</span> Smudge-resistant formula that stays put all day.\n<br>"
+            "custom_liquid": "<style>\n  .check-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n\n  .check-list li {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    font-size: 15px;\n    color: #222222;\n    line-height: 1.5;\n    padding: 8px 0;\n  }\n\n  .check-list li svg {\n    flex-shrink: 0;\n    margin-top: 1px;\n    width: 20px;\n    height: 20px;\n  }\n</style>\n\n<ul class=\"check-list\">\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Soft, natural freckles without the fuss of a pencil\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    5-point stamp for natural sprinkling, fine tip for beauty marks\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Smudge-resistant and sweat-friendly\n  </li>\n</ul>"
           }
         },
         "variant_picker": {
@@ -287,6 +287,7 @@
         "heading_Y6bCpT",
         "text_fXwrbU"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
@@ -332,6 +333,7 @@
       "block_order": [
         "announcement_CR4hbT"
       ],
+      "disabled": true,
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "direction": "left",
@@ -344,6 +346,17 @@
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "custom_liquid_Pa48xK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .faux-section {\n    display: flex;\n    align-items: stretch;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    background: #ffffff;\n    min-height: 420px;\n  }\n\n  /* LEFT: image */\n  .faux-image {\n    flex: 1 1 50%;\n    overflow: hidden;\n  }\n\n  .faux-image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  /* RIGHT: content */\n  .faux-content {\n    flex: 1 1 50%;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: clamp(32px, 5vw, 72px) clamp(24px, 5vw, 64px);\n    background: #ffffff;\n  }\n\n  .faux-title {\n    font-size: clamp(28px, 4vw, 52px);\n    font-weight: 800;\n    color: #111111;\n    line-height: 1.15;\n    margin: 0 0 36px;\n    letter-spacing: -0.02em;\n  }\n\n  .faux-icons {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 32px 24px;\n  }\n\n  .faux-icon-item {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px;\n  }\n\n  .faux-icon-item svg {\n    width: 52px;\n    height: 52px;\n  }\n\n  .faux-icon-item span {\n    font-size: clamp(13px, 1.2vw, 15px);\n    font-weight: 500;\n    color: #222222;\n    letter-spacing: 0.01em;\n  }\n\n  /* Mobile */\n  @media (max-width: 700px) {\n    .faux-section {\n      flex-direction: column;\n    }\n\n    .faux-image {\n      flex: none;\n      height: 300px;\n      width: 100%;\n    }\n\n    .faux-content {\n      padding: 32px 20px 40px;\n    }\n\n    .faux-icons {\n      gap: 24px 16px;\n    }\n\n    .faux-icon-item svg {\n      width: 44px;\n      height: 44px;\n    }\n  }\n</style>\n\n<div class=\"faux-section\">\n\n  <!-- LEFT IMAGE — replace src with your photo -->\n  <div class=\"faux-image\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/hf_20260331_083725_df449af8-5b84-462a-80d4-c5966cf082ef.webp?v=1775992566\" alt=\"Before and after freckles\">\n  </div>\n\n  <!-- RIGHT CONTENT -->\n  <div class=\"faux-content\">\n    <h2 class=\"faux-title\">Instant Faux<br>Freckles</h2>\n\n    <div class=\"faux-icons\">\n\n      <!-- Sweat Resistant -->\n      <div class=\"faux-icon-item\">\n        <svg viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <circle cx=\"32\" cy=\"32\" r=\"28\" stroke=\"#e07090\" stroke-width=\"2\"/>\n          <path d=\"M32 16 C32 16 22 26 22 34 C22 39.5 26.5 44 32 44 C37.5 44 42 39.5 42 34 C42 26 32 16 32 16Z\" stroke=\"#e07090\" stroke-width=\"2\" fill=\"none\"/>\n          <line x1=\"20\" y1=\"44\" x2=\"44\" y2=\"20\" stroke=\"#e07090\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n        </svg>\n        <span>Sweat Resistant</span>\n      </div>\n\n      <!-- Easy Removal -->\n      <div class=\"faux-icon-item\">\n        <svg viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M28 18 C28 18 20 22 20 30 L20 44 C20 45.1 20.9 46 22 46 L42 46 C43.1 46 44 45.1 44 44 L44 30 C44 22 36 18 36 18 Z\" stroke=\"#e07090\" stroke-width=\"2\"/>\n          <path d=\"M24 30 C24 30 28 26 32 26 C36 26 40 30 40 30\" stroke=\"#e07090\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M48 14 C50 11 54 12 54 15 C54 17 52 19 48 22 C44 19 42 17 42 15 C42 12 46 11 48 14Z\" stroke=\"#e07090\" stroke-width=\"1.8\" fill=\"none\"/>\n          <circle cx=\"52\" cy=\"10\" r=\"2\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n          <circle cx=\"44\" cy=\"8\" r=\"1.5\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n          <circle cx=\"56\" cy=\"18\" r=\"1.5\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n        </svg>\n        <span>Easy Removal</span>\n      </div>\n\n      <!-- Long Lasting -->\n      <div class=\"faux-icon-item\">\n        <svg viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <circle cx=\"22\" cy=\"38\" r=\"8\" stroke=\"#e07090\" stroke-width=\"2\"/>\n          <circle cx=\"38\" cy=\"28\" r=\"12\" stroke=\"#e07090\" stroke-width=\"2\"/>\n          <circle cx=\"18\" cy=\"26\" r=\"5\" stroke=\"#e07090\" stroke-width=\"2\"/>\n        </svg>\n        <span>Long Lasting</span>\n      </div>\n\n      <!-- Hypo Allergenic -->\n      <div class=\"faux-icon-item\">\n        <svg viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M20 36 L20 46 C20 47.1 20.9 48 22 48 L42 48 C43.1 48 44 47.1 44 46 L44 36 L38 28 L26 28 Z\" stroke=\"#e07090\" stroke-width=\"2\"/>\n          <path d=\"M26 28 L26 22 C26 18.7 28.7 16 32 16 C35.3 16 38 18.7 38 22 L38 28\" stroke=\"#e07090\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M28 38 L31 41 L36 35\" stroke=\"#e07090\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <circle cx=\"50\" cy=\"16\" r=\"2\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n          <circle cx=\"56\" cy=\"22\" r=\"1.5\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n          <circle cx=\"52\" cy=\"10\" r=\"1.5\" stroke=\"#e07090\" stroke-width=\"1.5\"/>\n        </svg>\n        <span>Hypo Allergenic</span>\n      </div>\n\n    </div>\n  </div>\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_liquid_PyWqQE": {
@@ -367,6 +380,7 @@
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
+    "custom_liquid_Pa48xK",
     "custom_liquid_PyWqQE"
   ]
 }
