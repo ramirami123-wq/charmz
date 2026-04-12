@@ -432,6 +432,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .etu-section {\n    background-color: #c0329a;\n    padding: 50px 24px 60px;\n    text-align: center;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n\n  .etu-title {\n    color: #ffffff;\n    font-size: clamp(28px, 5vw, 48px);\n    font-weight: 800;\n    margin: 0 0 44px;\n    letter-spacing: -0.01em;\n  }\n\n  .etu-steps {\n    display: flex;\n    justify-content: center;\n    align-items: flex-start;\n    gap: clamp(24px, 6vw, 80px);\n    flex-wrap: wrap;\n  }\n\n  .etu-step {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 18px;\n    width: clamp(140px, 38vw, 280px);\n  }\n\n  .etu-video-wrap {\n    position: relative;\n    width: 100%;\n    aspect-ratio: 1 / 1;\n    border-radius: 50%;\n    overflow: hidden;\n    box-shadow: 0 8px 32px rgba(0,0,0,0.25);\n  }\n\n  .etu-video-wrap video {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n  }\n\n  .etu-number {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: #ffffff;\n    color: #c0329a;\n    font-size: clamp(13px, 2vw, 17px);\n    font-weight: 800;\n    width: clamp(32px, 5vw, 44px);\n    height: clamp(32px, 5vw, 44px);\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.15);\n    flex-shrink: 0;\n  }\n\n  .etu-label {\n    color: #ffffff;\n    font-size: clamp(13px, 2.2vw, 16px);\n    font-weight: 600;\n    line-height: 1.5;\n    max-width: 200px;\n  }\n\n  @media (max-width: 600px) {\n    .etu-section {\n      padding: 40px 0 50px;\n      width: 100vw;\n      margin-left: calc(-50vw + 50%);\n      box-sizing: border-box;\n    }\n\n    .etu-steps {\n      flex-direction: column;\n      align-items: center;\n      gap: 36px;\n      padding: 0 8px;\n    }\n\n    .etu-step {\n      width: 80vw;\n    }\n\n    .etu-number {\n      width: 36px;\n      height: 36px;\n      font-size: 14px;\n    }\n\n    .etu-label {\n      font-size: 13px;\n    }\n  }\n</style>\n\n<section class=\"etu-section\">\n  <h2 class=\"etu-title\">Easy To Use!</h2>\n\n  <div class=\"etu-steps\">\n\n    <div class=\"etu-step\">\n      <div class=\"etu-video-wrap\">\n        <video src=\"https://cdn.shopify.com/videos/c/o/v/fe17f65fbb5245d9b4e8604a61612ef7.mov\" autoplay muted loop playsinline></video>\n        <div class=\"etu-number\">1.</div>\n      </div>\n      <p class=\"etu-label\">Dot across cheeks &amp; bridge of nose</p>\n    </div>\n\n    <div class=\"etu-step\">\n      <div class=\"etu-video-wrap\">\n        <video src=\"https://cdn.shopify.com/videos/c/o/v/a557169a0c9a442a8e7f11387d597043.mov\" autoplay muted loop playsinline></video>\n        <div class=\"etu-number\">2.</div>\n      </div>\n      <p class=\"etu-label\">Pat with finger to blend</p>\n    </div>\n\n  </div>\n</section>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -443,6 +454,7 @@
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
     "faq_8HKrFX",
-    "testimonials_yzCmrJ"
+    "testimonials_yzCmrJ",
+    "custom_liquid_cqKTNy"
   ]
 }
