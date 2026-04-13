@@ -122,6 +122,11 @@
         "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
         "disabled": false,
         "settings": {}
+      },
+      "9536980985073592808": {
+        "type": "shopify://apps/zotek-facebook-tiktok-pixel/blocks/pixelEmbed/e17ae0a7-f600-440d-80e8-705183c6ec36",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
