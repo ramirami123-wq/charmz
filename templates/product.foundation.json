@@ -113,9 +113,9 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "SHADE GUIDE",
-            "content": "",
-            "page": "shade-guide",
+            "heading": "DESCRIPTION",
+            "content": "<p>Our 4-in-1 liquid foundation is crafted with nourishing ingredients that hydrate, protect, and enhance your complexion. Enriched with botanical extracts, lightweight oils, and SPF 50+ for daily sun protection, it leaves your skin soft and beautiful. Our foundation is suitable for all skin types.</p>",
+            "page": "",
             "custom_liquid": "",
             "keep_open": false
           }
