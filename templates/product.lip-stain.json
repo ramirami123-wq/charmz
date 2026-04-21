@@ -191,6 +191,17 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_n9Ja7k": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.wyli-wrap {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  min-height: 380px;\n  overflow: hidden;\n  border-radius: 12px;\n  border: 0.5px solid #e5e5e5;\n}\n.wyli-img {\n  overflow: hidden;\n  min-height: 320px;\n}\n.wyli-img img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  object-position: center top;\n  display: block;\n}\n.wyli-content {\n  background: #ffffff;\n  padding: 3rem 2.5rem;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n.wyli-heading {\n  font-family: Georgia, serif;\n  font-size: 2rem;\n  font-weight: 700;\n  font-style: italic;\n  line-height: 1.2;\n  color: #1a1a1a;\n  margin: 0 0 1.8rem;\n}\n.wyli-heading span { display: block; }\n.wyli-list {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  display: flex;\n  flex-direction: column;\n  gap: 14px;\n}\n.wyli-list li {\n  font-size: 14px;\n  color: #2a2a2a;\n  line-height: 1.55;\n  display: flex;\n  gap: 8px;\n}\n.wyli-check { font-weight: 700; flex-shrink: 0; }\n.wyli-list strong { font-weight: 700; }\n@media (max-width: 600px) {\n  .wyli-wrap { grid-template-columns: 1fr; }\n  .wyli-img { min-height: 260px; }\n  .wyli-content { padding: 2rem 1.5rem; }\n  .wyli-heading { font-size: 1.5rem; }\n}\n</style>\n\n<div class=\"wyli-wrap\">\n  <div class=\"wyli-img\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/W_Demure_Lipliner_Brush_PDP_2_900x_ae50652e-37f8-4cb6-947b-47f304142c55.webp?v=1776793849\" alt=\"Model wearing Wonderskin lip stain\" />\n  </div>\n  <div class=\"wyli-content\">\n    <h2 class=\"wyli-heading\">\n      <span>Why we think</span>\n      <span>you'll love it:</span>\n    </h2>\n    <ul class=\"wyli-list\">\n      <li><span class=\"wyli-check\">✓</span><span><strong>Up to 10-hour wear</strong> – No touch-ups, no transfer, no fading.</span></li>\n      <li><span class=\"wyli-check\">✓</span><span><strong>Foolproof application</strong> – Wipe-off masque technology makes perfect lips effortless.</span></li>\n      <li><span class=\"wyli-check\">✓</span><span><strong>Lightweight comfort</strong> – Long-lasting colour that feels amazing all day.</span></li>\n      <li><span class=\"wyli-check\">✓</span><span><strong>Buildable coverage</strong> – Customise from natural flush to bold statement.</span></li>\n    </ul>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_EcxpFh": {
       "type": "image-with-text",
       "blocks": {
@@ -215,6 +226,7 @@
         "heading_DUKBfX",
         "text_jrFh7h"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
@@ -260,6 +272,7 @@
       "block_order": [
         "announcement_QJYrYr"
       ],
+      "disabled": true,
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "direction": "left",
@@ -298,6 +311,7 @@
         "heading_Y6bCpT",
         "text_fXwrbU"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
@@ -357,100 +371,24 @@
         "padding_bottom": 20
       }
     },
-    "faq_8HKrFX": {
-      "type": "faq",
-      "blocks": {
-        "question_dahem4": {
-          "type": "question",
-          "settings": {
-            "title": "Will it actually work for beginners?",
-            "text": "<p>Yes. The stamp is designed specifically for beginners. One press creates the wing shape, and the liner side connects it smoothly — no skills, no practice needed.</p>"
-          }
-        },
-        "question_AE8axB": {
-          "type": "question",
-          "settings": {
-            "title": "What if my eyes are different shapes or sizes?",
-            "text": "<p>The stamp works on all eye shapes. Because you control the angle and pressure, you can slightly adjust the wing to suit your eye while still keeping both sides balanced.</p>"
-          }
-        },
-        "question_zAKeDz": {
-          "type": "question",
-          "settings": {
-            "title": "Is the liner waterproof or will it smudge?",
-            "text": "<p>The formula is waterproof, smudge-resistant, and long-lasting. It stays clean through heat, sweat, and long days without fading or transferring.</p>"
-          }
-        },
-        "question_C7p7Br": {
-          "type": "question",
-          "settings": {
-            "title": "How long does one eyeliner last?",
-            "text": "<p>With normal daily use, one stamp lasts for weeks. Because the application is precise, you don’t waste product like traditional liners.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_dahem4",
-        "question_AE8axB",
-        "question_zAKeDz",
-        "question_C7p7Br"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_tFpiC6": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "<style>\n.faq-section{background:#fff;padding:48px 24px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;max-width:800px;margin:0 auto;box-sizing:border-box}\n.faq-title{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;font-size:clamp(24px,4vw,38px);color:#c9836a;text-align:center;margin:0 0 36px}\n.faq-list{display:flex;flex-direction:column;gap:10px}\n.faq-item{background:#faf3ef;border-radius:12px;overflow:hidden}\n.faq-question{width:100%;background:none;border:none;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;cursor:pointer;text-align:left;gap:16px}\n.faq-question span{font-size:15px;font-weight:600;color:#222;line-height:1.4}\n.faq-icon{font-size:22px;color:#aaa;font-weight:300;flex-shrink:0;transition:transform 0.25s ease;line-height:1}\n.faq-item.open .faq-icon{transform:rotate(45deg);color:#c9836a}\n.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease,padding 0.3s ease;padding:0 20px}\n.faq-item.open .faq-answer{max-height:300px;padding:0 20px 18px}\n.faq-answer p{font-size:14px;color:#555;line-height:1.7;margin:0}\n</style>\n\n<div class=\"faq-section\">\n  <h2 class=\"faq-title\">frequently asked questions</h2>\n  <div class=\"faq-list\">\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>How long does the lip stain actually last?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>The Wonder Blading Lip Stain lasts up to 10 hours with the Peel & Reveal method. The stain infuses pigment directly into the top layer of your lips, so it doesn't sit on the surface — it stays put through eating, drinking, and everything in between.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>Why does it go on blue?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>The blue colour is just the masque formula — it's not the final shade. Once you wipe or peel it off, the true pigment underneath is revealed on your lips. Every shade starts blue when applied; that's the magic of the Wonder Blading technology.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>What's the difference between Stain & Go and Peel & Reveal?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Stain & Go is the quick method — apply 1–2 coats, wait 10–30 seconds, then wipe off with a damp cloth. It gives a natural, everyday tint. Peel & Reveal uses the Activator Mist on top to seal the masque into a film you can peel away, delivering a more intense colour and longer wear time.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>Is it safe for sensitive lips or dry skin?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Yes — the formula is vegan, cruelty-free, paraben-free, and gluten-free. It contains squalane to keep lips hydrated and comfortable throughout the day. If your lips are very dry, we recommend exfoliating beforehand for the most even result.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>Can I wear gloss or balm on top?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Absolutely. Once the stain sets, you can layer any lip balm, gloss, or oil on top without affecting the colour. The stain won't transfer to whatever you apply over it — so you get all the shine with none of the smudge.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <button class=\"faq-question\" onclick=\"toggleFaq(this)\">\n        <span>How do I remove it?</span>\n        <span class=\"faq-icon\">+</span>\n      </button>\n      <div class=\"faq-answer\">\n        <p>Use an oil-based makeup remover or cleanser — the same kind you'd use for waterproof mascara. Since the stain is designed to last, a quick rinse with water won't fully remove it. A few seconds with an oil-based remover does the job cleanly.</p>\n      </div>\n    </div>\n\n  </div>\n</div>\n\n<script>\nfunction toggleFaq(btn){\n  const item = btn.closest('.faq-item');\n  const isOpen = item.classList.contains('open');\n  document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));\n  if (!isOpen) item.classList.add('open');\n}\n</script>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "Frequently asked questions",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "testimonials_yzCmrJ": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_ai9x6n": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>I love how sleek it looks! I can add my favorite charms inside without it feeling bulky or cluttered. It’s like a tiny memory capsule I wear every day.</p>",
-            "author": "Celine ghamloush"
-          }
-        },
-        "testimonial_CRPdFk": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>This solves the problem I always had with charm necklaces — no tangling, no messy clasps. Just open the locket, place the charms, and it looks perfect.</p>",
-            "author": "Line Darwish"
-          }
-        },
-        "testimonial_Ag34fd": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>I change the charms depending on my mood or outfit. Sometimes I keep it minimal with one or two, other times I fill it up for a bold look. So versatile!</p>",
-            "author": "Maya khoury"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_ai9x6n",
-        "testimonial_CRPdFk",
-        "testimonial_Ag34fd"
-      ],
-      "name": "t:sections.testimonials.presets.name",
+    "custom_liquid_WCgwGn": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "hide_images": true,
+        "custom_liquid": "<style>\n.reviews-section{background:#ffffff;padding:48px 20px 60px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;text-align:center;box-sizing:border-box;width:100%}\n.reviews-hearts{color:#c9836a;font-size:18px;letter-spacing:6px;margin-bottom:12px}\n.reviews-title{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:400;font-size:clamp(24px,4vw,40px);color:#c9836a;margin:0 0 36px}\n.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:1200px;margin:0 auto;box-sizing:border-box;width:100%}\n.review-card{background:#ffffff;border:1.5px solid #e8e8e8;border-radius:12px;text-align:left;display:flex;flex-direction:column;box-sizing:border-box;width:100%;min-width:0}\n.review-body{padding:24px 20px 28px;display:flex;flex-direction:column;gap:6px;box-sizing:border-box;flex:1;min-width:0}\n.review-verified{font-size:11px;font-weight:700;color:#c9836a;letter-spacing:.06em;text-transform:uppercase}\n.review-stars{color:#c9836a;font-size:16px;letter-spacing:2px;margin-bottom:4px}\n.review-title{font-size:15px;font-weight:800;color:#111111;line-height:1.3;margin:0;white-space:normal;overflow-wrap:break-word;word-break:break-word;width:100%}\n.review-text{font-size:13px;color:#444444;line-height:1.6;margin:0;overflow-wrap:break-word;word-break:break-word;white-space:normal;width:100%}\n.review-name{font-size:12px;color:#999;margin-top:6px}\n.reviews-toggle{margin-top:32px;background:none;border:2px solid #c9836a;color:#c9836a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;letter-spacing:.04em;padding:12px 32px;border-radius:100px;cursor:pointer;transition:background .2s,color .2s}\n.reviews-toggle:hover{background:#c9836a;color:#ffffff}\n@media(max-width:900px){.reviews-grid{grid-template-columns:repeat(2,1fr)}}\n@media(max-width:540px){.reviews-section{padding:36px 16px 48px}.reviews-grid{grid-template-columns:1fr;width:100%}.review-card{width:100%}}\n</style>\n\n<section class=\"reviews-section\">\n  <div class=\"reviews-hearts\">♥ ♥ ♥ ♥ ♥</div>\n  <h2 class=\"reviews-title\">Real lips. Real results.</h2>\n\n  <div class=\"reviews-grid\">\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">I applied it at 8am and it was still on at 8pm</p>\n        <p class=\"review-text\">I was fully prepared to be disappointed — every \"long-lasting\" lip product I've tried fades within two hours. This one genuinely didn't budge. Wore it through coffee, lunch, and a workout. Absolutely obsessed.</p>\n        <span class=\"review-name\">— Sara M.</span>\n      </div>\n    </div>\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">Looks like my lips, but a better version</p>\n        <p class=\"review-text\">The shade Whimsical is exactly my natural lip colour but more even and polished. I've had people ask if I got a lip treatment. It's that natural-looking. Zero dry feeling, which I was worried about.</p>\n        <span class=\"review-name\">— Nour K.</span>\n      </div>\n    </div>\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">No transfer — not even on my mask</p>\n        <p class=\"review-text\">I work in a clinic and still wear a mask for long shifts. Every lip product I own ends up all over it. This one? Nothing. Clean mask, perfect colour on my lips. That alone makes it worth every penny.</p>\n        <span class=\"review-name\">— Lara T.</span>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"reviews-grid\" id=\"extraReviews\" style=\"display:none;margin-top:16px\">\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">The peeling part is so satisfying</p>\n        <p class=\"review-text\">I was sceptical about the whole blue masque thing — looked strange going on. But peeling it off to reveal that perfect colour is genuinely one of the most satisfying things I've done in my skincare routine. And it lasts all day.</p>\n        <span class=\"review-name\">— Maya R.</span>\n      </div>\n    </div>\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">My lips feel soft, not stripped</p>\n        <p class=\"review-text\">Most long-wear formulas leave my lips feeling tight and dry after a few hours. This one actually feels hydrating. I added a clear gloss on top and it looked incredible — and stayed on just as long.</p>\n        <span class=\"review-name\">— Dina A.</span>\n      </div>\n    </div>\n    <div class=\"review-card\">\n      <div class=\"review-body\">\n        <span class=\"review-verified\">✓ Verified Customer</span>\n        <div class=\"review-stars\">★★★★★</div>\n        <p class=\"review-title\">Already on my third order</p>\n        <p class=\"review-text\">I've tried the dupes and nothing comes close. The colour payoff, the staying power, the way it doesn't crack or fade unevenly — it's just in a different league. XOXO is my everyday shade now and I won't go back.</p>\n        <span class=\"review-name\">— Joelle B.</span>\n      </div>\n    </div>\n  </div>\n\n  <button class=\"reviews-toggle\" id=\"reviewsToggle\" onclick=\"toggleReviews()\">See More Reviews ▾</button>\n</section>\n\n<script>\nfunction toggleReviews(){\n  var e=document.getElementById('extraReviews'),b=document.getElementById('reviewsToggle');\n  if(e.style.display==='none'){e.style.display='grid';b.textContent='Show Less ▴'}\n  else{e.style.display='none';b.textContent='See More Reviews ▾'}\n}\n</script>",
+        "full_width": false,
         "show_divider": false,
-        "heading": "Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -461,11 +399,12 @@
     "main",
     "product-recommendations",
     "custom_liquid_jcTmUf",
+    "custom_liquid_n9Ja7k",
     "image_with_text_EcxpFh",
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
-    "faq_8HKrFX",
-    "testimonials_yzCmrJ"
+    "custom_liquid_tFpiC6",
+    "custom_liquid_WCgwGn"
   ]
 }
