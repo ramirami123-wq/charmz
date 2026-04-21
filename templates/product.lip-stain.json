@@ -114,6 +114,12 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "custom_liquid_TegRhR": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .social-proof-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 600px;\n  }\n  .social-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 14px 18px;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n  .avatars {\n    display: flex;\n    flex-shrink: 0;\n  }\n  .avatar {\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    overflow: hidden;\n    background: #ddd;\n  }\n  .avatar:nth-child(2) {\n    margin-left: -10px;\n  }\n  .avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n  .social-text {\n    font-size: 14px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .social-text strong {\n    font-weight: 700;\n  }\n  .guarantee-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 16px 18px;\n  }\n  .guarantee-row p {\n    margin: 0;\n    font-size: 14px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .guarantee-row p.gtitle {\n    font-weight: 700;\n    margin-bottom: 4px;\n  }\n</style>\n\n<div class=\"social-proof-wrap\">\n\n  <div class=\"social-row\">\n    <div class=\"avatars\">\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=47\" alt=\"Christine\" />\n      </div>\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=32\" alt=\"Karen\" />\n      </div>\n    </div>\n    <div class=\"social-text\">\n      <strong>Christine, Karen</strong> and <strong>4k+ others</strong> are using <strong>JOLIE</strong>\n    </div>\n  </div>\n\n  <div class=\"guarantee-row\">\n    <p class=\"gtitle\">30-Day Money-Back Guarantee</p>\n    <p>That's how confident we are in your results. But if you're not thrilled, send it back and we'll refund your purchase.</p>\n  </div>\n\n</div>"
+          }
         }
       },
       "block_order": [
@@ -128,7 +134,8 @@
         "collapsible_tab_ATqrLX",
         "collapsible_tab_7tBM8m",
         "related_buttons",
-        "sticky_cart"
+        "sticky_cart",
+        "custom_liquid_TegRhR"
       ],
       "settings": {
         "enable_sticky_info": true,
