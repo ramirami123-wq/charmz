@@ -50,7 +50,7 @@
         "custom_liquid_H9DXEK": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<span style=\"font-weight:700;\">⏱ Quick Application —</span> A complete winged-liner look in under 10 seconds.\n<br>\n<span style=\"font-weight:700;\">🎯 Perfect Symmetry —</span> Both eyes always look the same, every time.\n<br>\n<span style=\"font-weight:700;\">💧 Smudge-Proof—</span> Stays perfect even in heat, sweat, or after a long day."
+            "custom_liquid": "<span style=\"font-weight:700;\">💋 Stain in 30 Seconds —</span> Apply, wait, peel. Full-day color without the effort.\n<br>\n<span style=\"font-weight:700;\">🌹 Blends Into Your Skin —</span> Not a lipstick sitting on your lips — a stain that becomes your lips.\n<br>\n<span style=\"font-weight:700;\">💧 Won't Budge —</span> Heat, food, drinks — the color holds. You don't have to."
           }
         },
         "variant_picker": {
@@ -80,6 +80,28 @@
             "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
           }
         },
+        "collapsible_tab_ATqrLX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Description",
+            "content": "<p>Welcome to stunning, no-fade shades that literally last all day. Our high-tech vegan formula hyper-stains for touch-up-free color that just won't budge - while keeping lips soft and hydrated for hours.</p><p>Choose from natural tints or check-me-out color.</p><ul><li>Lips stay soft all day, as our alcohol-free formula hydrates where others dry.</li><li>Color won't transfer, fade or feather - and is waterproof too. Washes off with your regular cleanser.</li><li>Vegan, cruelty-free and gluten-free. Responsibly formulated with safe ingredients.</li><li>Note: This item is the Lip Masque only.</li></ul>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_7tBM8m": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "How To Use",
+            "content": "<p>Prep: Start with clean, dry lips. If needed, exfoliate lips first with our WONDER BLADING 3-in-1 Lip Scrub to remove any dry flakes.</p><p><strong>Step 1:</strong> Apply evenly across lips.</p><p><strong>Step 2:</strong> Wait 1 minute or until dry.</p><p><strong>Step 3:</strong> Wipe-away with a damp cloth to reveal vibrant colour.</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
         "related_buttons": {
           "type": "related_buttons",
           "disabled": true,
@@ -103,6 +125,8 @@
         "variant_picker",
         "buy_buttons",
         "custom_liquid_PigjTJ",
+        "collapsible_tab_ATqrLX",
+        "collapsible_tab_7tBM8m",
         "related_buttons",
         "sticky_cart"
       ],
@@ -145,6 +169,17 @@
         "enable_quick_view": true,
         "enable_color_swatches": true,
         "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_jcTmUf": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.badges-wrap {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  gap: 24px;\n  padding: 2rem 1rem;\n}\n.badge-item {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 10px;\n  flex: 0 0 auto;\n}\n.badge-circle {\n  width: 72px;\n  height: 72px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1.5px solid;\n}\n.badge-label {\n  font-size: 10px;\n  font-weight: 500;\n  letter-spacing: 0.08em;\n  text-transform: uppercase;\n  color: #5a5a6e;\n  text-align: center;\n}\n.svg-icon {\n  width: 32px;\n  height: 32px;\n}\n@media (max-width: 480px) {\n  .badges-wrap { gap: 16px; }\n  .badge-circle { width: 58px; height: 58px; }\n  .svg-icon { width: 26px; height: 26px; }\n  .badge-label { font-size: 9px; }\n}\n</style>\n\n<div class=\"badges-wrap\">\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#eef5ea;border-color:#a8d18a;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#5a9e3a\" stroke-width=\"1.4\"/>\n        <text x=\"16\" y=\"20.5\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"500\" fill=\"#3b6d11\" font-family=\"sans-serif\">V</text>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Vegan</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#eeecfc;border-color:#b5b0ec;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#7f77dd\" stroke-width=\"1.4\"/>\n        <text x=\"16\" y=\"20.5\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"500\" fill=\"#3c3489\" font-family=\"sans-serif\">GF</text>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Gluten-Free</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#fbeaf0;border-color:#ed93b1;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#d4537e\" stroke-width=\"1.4\"/>\n        <text x=\"16\" y=\"20.5\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"500\" fill=\"#72243e\" font-family=\"sans-serif\">CF</text>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Cruelty-Free</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#e6f1fb;border-color:#85b7eb;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#378add\" stroke-width=\"1.4\"/>\n        <text x=\"16\" y=\"20.5\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"500\" fill=\"#0c447c\" font-family=\"sans-serif\">PF</text>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Paraben-Free</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#e1f5ee;border-color:#5dcaa5;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#1d9e75\" stroke-width=\"1.4\"/>\n        <path d=\"M16 10 C16 10 12 14.5 12 17.5 C12 19.7 13.8 21.5 16 21.5 C18.2 21.5 20 19.7 20 17.5 C20 14.5 16 10 16 10Z\" stroke=\"#0f6e56\" stroke-width=\"1.3\" fill=\"none\"/>\n        <line x1=\"14\" y1=\"22\" x2=\"18\" y2=\"11\" stroke=\"#0f6e56\" stroke-width=\"1.2\"/>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Water-Proof</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#fbeaf0;border-color:#ed93b1;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#d4537e\" stroke-width=\"1.4\"/>\n        <line x1=\"9\" y1=\"9\" x2=\"23\" y2=\"23\" stroke=\"#d4537e\" stroke-width=\"1.4\"/>\n        <path d=\"M13 16 L19 16 M17 14 L19 16 L17 18\" stroke=\"#72243e\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Transfer-Proof</span>\n  </div>\n\n  <div class=\"badge-item\">\n    <div class=\"badge-circle\" style=\"background:#f1efe8;border-color:#b4b2a9;\">\n      <svg class=\"svg-icon\" viewBox=\"0 0 32 32\" fill=\"none\">\n        <circle cx=\"16\" cy=\"16\" r=\"11\" stroke=\"#888780\" stroke-width=\"1.4\"/>\n        <circle cx=\"16\" cy=\"16\" r=\"7\" stroke=\"#5f5e5a\" stroke-width=\"1.2\"/>\n        <line x1=\"16\" y1=\"16\" x2=\"16\" y2=\"11\" stroke=\"#5f5e5a\" stroke-width=\"1.3\" stroke-linecap=\"round\"/>\n        <line x1=\"16\" y1=\"16\" x2=\"20\" y2=\"16\" stroke=\"#5f5e5a\" stroke-width=\"1.3\" stroke-linecap=\"round\"/>\n      </svg>\n    </div>\n    <span class=\"badge-label\">Long Wear</span>\n  </div>\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -418,6 +453,7 @@
     "empty-space",
     "main",
     "product-recommendations",
+    "custom_liquid_jcTmUf",
     "image_with_text_EcxpFh",
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
