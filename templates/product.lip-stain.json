@@ -38,7 +38,7 @@
           "settings": {
             "price_size": "medium",
             "show_badges": true,
-            "sale_badge_basis": "auto"
+            "sale_badge_basis": "percentage"
           }
         },
         "custom_liquid_yRQmCt": {
@@ -55,7 +55,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "show_variant_labels": true,
             "picker_type": "button",
