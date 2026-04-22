@@ -58,7 +58,7 @@
           "settings": {
             "show_variant_labels": true,
             "picker_type": "button",
-            "enable_color_swatches": true,
+            "enable_color_swatches": false,
             "swatches_source": "file",
             "swatch_type": "round",
             "enable_swatch_cross": true,
