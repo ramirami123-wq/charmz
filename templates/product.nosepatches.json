@@ -121,6 +121,12 @@
             "keep_open": false
           }
         },
+        "custom_liquid_QVjMGH": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .warning-banner {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 12px 14px;\n    border: 1.5px dashed #e53e3e;\n    border-radius: 8px;\n    background: #fff;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 100%;\n    box-sizing: border-box;\n  }\n  .warning-icon {\n    flex-shrink: 0;\n    width: 22px;\n    height: 22px;\n    background: #e53e3e;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #fff;\n    font-size: 12px;\n    font-weight: 700;\n  }\n  .warning-text {\n    font-size: 12px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .warning-text strong {\n    color: #e53e3e;\n    font-weight: 700;\n    margin-right: 4px;\n  }\n</style>\n\n<div class=\"warning-banner\">\n  <div class=\"warning-icon\">i</div>\n  <div class=\"warning-text\">\n    <strong>Watch Out For Cheap Replicas.</strong>Only our nose patches are the real thing — trusted by thousands for clearer pores overnight.\n  </div>\n</div>"
+          }
+        },
         "custom_liquid_YMTnpV": {
           "type": "custom_liquid",
           "settings": {
@@ -142,6 +148,7 @@
         "related_buttons",
         "sticky_cart",
         "collapsible_tab_4nMEU7",
+        "custom_liquid_QVjMGH",
         "custom_liquid_YMTnpV"
       ],
       "settings": {
