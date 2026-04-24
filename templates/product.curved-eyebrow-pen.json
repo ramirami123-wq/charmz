@@ -258,7 +258,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image": "shopify://shop_images/712nonl56IL._SX466.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -270,7 +270,7 @@
         "image_behavior": "none",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
+        "mobile_image_ratio": "adapt",
         "enable_video_looping": false,
         "video_url": "",
         "use_custom_colors": false,
@@ -315,53 +315,13 @@
         "padding_bottom": 20
       }
     },
-    "faq_8HKrFX": {
-      "type": "faq",
-      "blocks": {
-        "question_dahem4": {
-          "type": "question",
-          "settings": {
-            "title": "Will it actually work for beginners?",
-            "text": "<p>Yes. The stamp is designed specifically for beginners. One press creates the wing shape, and the liner side connects it smoothly — no skills, no practice needed.</p>"
-          }
-        },
-        "question_AE8axB": {
-          "type": "question",
-          "settings": {
-            "title": "What if my eyes are different shapes or sizes?",
-            "text": "<p>The stamp works on all eye shapes. Because you control the angle and pressure, you can slightly adjust the wing to suit your eye while still keeping both sides balanced.</p>"
-          }
-        },
-        "question_zAKeDz": {
-          "type": "question",
-          "settings": {
-            "title": "Is the liner waterproof or will it smudge?",
-            "text": "<p>The formula is waterproof, smudge-resistant, and long-lasting. It stays clean through heat, sweat, and long days without fading or transferring.</p>"
-          }
-        },
-        "question_C7p7Br": {
-          "type": "question",
-          "settings": {
-            "title": "How long does one eyeliner last?",
-            "text": "<p>With normal daily use, one stamp lasts for weeks. Because the application is precise, you don’t waste product like traditional liners.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_dahem4",
-        "question_AE8axB",
-        "question_zAKeDz",
-        "question_C7p7Br"
-      ],
-      "name": "t:sections.faq.presets.name",
+    "custom_liquid_kYPMYP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "narrow": false,
-        "secondary_background": false,
+        "custom_liquid": "",
+        "full_width": false,
         "show_divider": false,
-        "heading": "Frequently asked questions",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -422,7 +382,7 @@
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
-    "faq_8HKrFX",
+    "custom_liquid_kYPMYP",
     "testimonials_yzCmrJ"
   ]
 }
