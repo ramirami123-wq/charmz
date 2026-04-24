@@ -111,11 +111,10 @@
         },
         "collapsible_tab_4nMEU7": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "heading": "DESCRIPTION",
-            "content": "<p>Our 4-in-1 liquid foundation is crafted with nourishing ingredients that hydrate, protect, and enhance your complexion. Enriched with botanical extracts, lightweight oils, and SPF 50+ for daily sun protection, it leaves your skin soft and beautiful. Our foundation is suitable for all skin types.</p>",
+            "heading": "HOW TO USE",
+            "content": "<p>1. Cleanse your face and pat your nose completely dry — the patch won't stick to damp skin.</p><p>2. Peel the patch and press it firmly over your nose, smoothing out any air bubbles.</p><p>3. Leave it on for 6 to 8 hours — overnight works best.</p><p>4. Peel away slowly in the morning. The patch turning white means it's absorbed oil and buildup from your pores.</p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
