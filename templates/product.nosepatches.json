@@ -111,6 +111,7 @@
         },
         "collapsible_tab_4nMEU7": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "DESCRIPTION",
