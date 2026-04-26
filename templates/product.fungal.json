@@ -227,34 +227,33 @@
         "padding_bottom": 20
       }
     },
-    "image_with_text_X6KRyA": {
+    "image_with_text_FhAwcL": {
       "type": "image-with-text",
       "blocks": {
-        "heading_Y6bCpT": {
+        "heading_pUCiXp": {
           "type": "heading",
           "settings": {
-            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading": "Just 5 Seconds Before Bed Time",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
-        "text_fXwrbU": {
+        "text_kJYpfc": {
           "type": "text",
           "settings": {
-            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text": "<p>In just 5 seconds before bed, you apply the patch and forget about it.</p><p>While you sleep, it delivers natural ingredients straight to the nail, working overnight so you wake up one step closer to healthy nails.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
         }
       },
       "block_order": [
-        "heading_Y6bCpT",
-        "text_fXwrbU"
+        "heading_pUCiXp",
+        "text_kJYpfc"
       ],
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image": "shopify://shop_images/ezgif-4f4ee6aecbb284.webp",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -267,6 +266,56 @@
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why It Works?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our patches use a moisture-locking formula that softens, hydrates, and helps break down fungal buildup fast all in just one simplistic odor and mess free patch.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_1_adb9bb46-55ee-4d88-a082-b9a927512d92_1.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
         "enable_video_looping": false,
         "video_url": "",
         "use_custom_colors": false,
@@ -341,6 +390,7 @@
     "product-recommendations",
     "custom_liquid_cqKTNy",
     "scrolling_promotion_6Xj9FQ",
+    "image_with_text_FhAwcL",
     "image_with_text_X6KRyA",
     "scrolling_promotion_pD6Mdt",
     "custom_liquid_QWbLRi",
