@@ -167,6 +167,17 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_KL9pzK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .why-section {\n    background: #f0efe8;\n    padding: 64px 24px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-align: center;\n  }\n  .why-badge {\n    display: inline-block;\n    background: #f5c842;\n    color: #111;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.12em;\n    padding: 8px 20px;\n    border-radius: 999px;\n    margin-bottom: 24px;\n  }\n  .why-heading {\n    font-size: clamp(26px, 4vw, 42px);\n    font-weight: 800;\n    color: #111;\n    margin: 0 0 16px;\n    line-height: 1.2;\n  }\n  .why-sub {\n    font-size: 16px;\n    color: #888;\n    line-height: 1.6;\n    max-width: 480px;\n    margin: 0 auto 48px;\n  }\n  .why-cards {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));\n    gap: 16px;\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n  .why-card {\n    background: #fff;\n    border-radius: 16px;\n    padding: 32px 28px;\n    text-align: left;\n  }\n  .why-num {\n    font-size: 28px;\n    font-weight: 800;\n    color: #f5c842;\n    margin-bottom: 14px;\n  }\n  .why-card-title {\n    font-size: 16px;\n    font-weight: 700;\n    color: #111;\n    margin: 0 0 12px;\n    line-height: 1.4;\n  }\n  .why-card-body {\n    font-size: 14px;\n    color: #555;\n    line-height: 1.7;\n    margin: 0;\n  }\n</style>\n\n<div class=\"why-section\">\n  <div class=\"why-badge\">WHY IT WORKS</div>\n  <h2 class=\"why-heading\">Your Skin Has Been Trying To Tell You Something.</h2>\n  <p class=\"why-sub\">Most moisturisers fail because they sit on top of your skin. Beef tallow doesn't. Here's the science behind why.</p>\n\n  <div class=\"why-cards\">\n    <div class=\"why-card\">\n      <div class=\"why-num\">01</div>\n      <p class=\"why-card-title\">Your skin produces its own oil</p>\n      <p class=\"why-card-body\">Your skin naturally produces sebum — a waxy oil that keeps it hydrated, protected and balanced. When this breaks down, you get dryness, redness, irritation and accelerated aging.</p>\n    </div>\n    <div class=\"why-card\">\n      <div class=\"why-num\">02</div>\n      <p class=\"why-card-title\">Beef tallow is molecularly identical to sebum</p>\n      <p class=\"why-card-body\">Grass-fed beef tallow has the same fatty acid profile as human sebum. Your skin recognises it immediately and absorbs it completely — because it's designed to. No other moisturiser does this.</p>\n    </div>\n    <div class=\"why-card\">\n      <div class=\"why-num\">03</div>\n      <p class=\"why-card-title\">It rebuilds. Not just masks.</p>\n      <p class=\"why-card-body\">Synthetic moisturisers sit on the surface and evaporate. Tallow absorbs and works at the cellular level — with vitamins A, D, E and K to repair, rebuild and protect. Results compound over time.</p>\n    </div>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "custom_liquid_cqKTNy": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -322,6 +333,7 @@
     "empty-space",
     "main",
     "product-recommendations",
+    "custom_liquid_KL9pzK",
     "custom_liquid_cqKTNy",
     "scrolling_promotion_6Xj9FQ",
     "image_with_text_X6KRyA",
