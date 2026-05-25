@@ -88,93 +88,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_RCYCaB": {
-      "type": "featured-product",
-      "blocks": {
-        "title_7PbUaC": {
-          "type": "title",
-          "settings": {
-            "title_size": "h2",
-            "title_tag": "h2",
-            "show_price": false,
-            "price_size": "medium"
-          }
-        },
-        "rating_AN8Hkq": {
-          "type": "rating",
-          "settings": {}
-        },
-        "price_7c3cKU": {
-          "type": "price",
-          "settings": {
-            "price_size": "medium",
-            "show_badges": true,
-            "sale_badge_basis": "percentage"
-          }
-        },
-        "custom_liquid_9wDUPc": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n\n<span style=\"font-weight: bold;\">✨ 18k Gold-Plated & Waterproof</span> – Keeps its shine and color even with daily wear.<br><br>\n\n<span style=\"font-weight: bold;\">💎 Premium Quality</span> – Made with durable, lasting materials.<br><br>\n\n<span style=\"font-weight: bold;\">🌸 Customizable</span> – Add charms that tell your story.<br><br>\n\n<span style=\"font-weight: bold;\">🌍 Trendy Style</span> – Matches any outfit, casual or chic.\n\n</div>"
-          }
-        },
-        "variant_picker_txHV9a": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatches_source": "file",
-            "swatch_type": "round",
-            "enable_swatch_cross": true,
-            "enable_swatch_unavailable_click": false,
-            "size_chart": ""
-          }
-        },
-        "buy_buttons_jtWcw8": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "collapsible_tab_LdVzDy": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Materials",
-            "content": "<p>The <em>CharmClub</em> necklace is crafted from <strong>premium stainless steel</strong> with a polished silver finish, built to <strong>resist tarnishing</strong> and last through <em>daily wear</em>.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "title_7PbUaC",
-        "rating_AN8Hkq",
-        "price_7c3cKU",
-        "custom_liquid_9wDUPc",
-        "variant_picker_txHV9a",
-        "buy_buttons_jtWcw8",
-        "collapsible_tab_LdVzDy"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "necklace",
-        "layout": "media_first",
-        "full_width": false,
-        "show_divider": false,
-        "show_featured_media": false,
-        "hide_variants": false,
-        "enable_image_zoom": false,
-        "enable_video_looping": false,
-        "image_ratio": "adapt_first",
-        "image_position": "center center",
-        "enable_layered_images": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "scrolling_promotion_QtVqFY": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -205,36 +118,6 @@
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "featured_collection_jA4dk9": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "frontpage",
-        "products_to_show": 12,
-        "horizontal_scroll": false,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "Customize Your Necklace",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": false,
-        "secondary_image_max": 1,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "scrolling_promotion_gqQrxK": {
@@ -321,8 +204,6 @@
     "slideshow",
     "featured_collection_TNdH3Y",
     "scrolling_promotion_QtVqFY",
-    "featured_product_RCYCaB",
-    "featured_collection_jA4dk9",
     "scrolling_promotion_gqQrxK",
     "testimonials_RAYR9d"
   ]
