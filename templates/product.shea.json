@@ -93,7 +93,18 @@
           "settings": {
             "icon": "none",
             "heading": "How to use",
-            "content": "<p>Here's a <strong>How to Use</strong> section for the Jolie Turmeric Fade & Glow Bar:</p><p><strong>How to Use</strong></p><p>Our bar is made with 100% natural ingredients — no harsh chemicals, no shortcuts. Just pure turmeric working with your skin, not against it.</p><p><strong>Step 1 — Wet your skin</strong><br/>Splash your face with lukewarm water to open up your pores.</p><p><strong>Step 2 — Lather & apply</strong><br/>Work the bar into a rich lather and gently massage onto your face in circular motions for 60 seconds. This gives the turmeric time to absorb and work.</p><p><strong>Step 3 — Rinse thoroughly</strong><br/>Rinse with lukewarm water and pat dry. Don't rub.</p><p><strong>Step 4 — Moisturize</strong><br/>Follow with your favorite moisturizer to lock in hydration.</p><p><strong>How often?</strong></p><ul><li>start 3x per week, then build up gradually</li></ul><p><strong>When will I see results?</strong></p><ul><li>Week 1–2: Softer skin, less inflammation</li><li>Week 3–4: Spots start fading, tone evens out</li><li>Week 6–8: Visible brightening & dark spot reduction</li></ul>",
+            "content": "<p><strong>How to Use</strong></p><p>Our bar is made with 100% natural ingredients — no harsh chemicals, no shortcuts. Just pure turmeric working with your skin, not against it.</p><p><strong>Step 1 — Wet your skin</strong><br/>Splash your face with lukewarm water to open up your pores.</p><p><strong>Step 2 — Lather & apply</strong><br/>Work the bar into a rich lather and gently massage onto your face in circular motions for 60 seconds. This gives the turmeric time to absorb and work.</p><p><strong>Step 3 — Rinse thoroughly</strong><br/>Rinse with lukewarm water and pat dry. Don't rub.</p><p><strong>Step 4 — Moisturize</strong><br/>Follow with your favorite moisturizer to lock in hydration.</p><p><strong>How often?</strong></p><ul><li>start 3x per week, then build up gradually</li></ul><p><strong>When will I see results?</strong></p><ul><li>Week 1–2: Softer skin, less inflammation</li><li>Week 3–4: Spots start fading, tone evens out</li><li>Week 6–8: Visible brightening & dark spot reduction</li></ul>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_Li8GyK": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Ingredients",
+            "content": "<p><strong>Turmeric Soap typical ingredients:</strong> Olive Oil, Turmeric Root Extract, Turmeric Root Oil, Shea Butter, Jojoba Oil, Apricot Kernel Oil, Glycerin, Licorice Root Extract<br/><br/></p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
@@ -142,6 +153,7 @@
         "globo_product_options_app_block_fFpLUy",
         "buy_buttons",
         "collapsible_tab_h9GFqt",
+        "collapsible_tab_Li8GyK",
         "custom_liquid_PigjTJ",
         "custom_liquid_qyXWVP",
         "related_buttons",
