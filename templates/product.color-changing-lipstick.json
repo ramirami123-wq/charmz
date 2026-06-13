@@ -150,7 +150,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "product_list_limit": 4,
         "show_divider": false,
