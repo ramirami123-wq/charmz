@@ -63,6 +63,12 @@
             "custom_liquid": "<style>\n  .check-list {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  }\n  .check-list li {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    font-size: 15px;\n    color: #222222;\n    line-height: 1.5;\n    padding: 8px 0;\n  }\n  .check-list li svg {\n    flex-shrink: 0;\n    margin-top: 1px;\n    width: 20px;\n    height: 20px;\n  }\n</style>\n<ul class=\"check-list\">\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Covers veins, scars, and dark spots — just smooth, even skin\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Feels like skin, not makeup — lightweight, never cakey or heavy\n  </li>\n  <li>\n    <svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#222222\"/>\n      <path d=\"M7 12.5l3.5 3.5 6.5-7\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n    </svg>\n    Waterproof and sweatproof — stays put all day, no touch-ups needed\n  </li>\n</ul>"
           }
         },
+        "custom_liquid_yGJMwi": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"adapt-badge\">\n  <div class=\"adapt-badge__icon\">\n    <span class=\"dot dot-1\"></span>\n    <span class=\"dot dot-2\"></span>\n    <span class=\"dot dot-3\"></span>\n  </div>\n  <div class=\"adapt-badge__text\">\n    <strong>This Product Comes With No Shades</strong>\n    <p>It's a color-changing perfector — it adapts and matches your skin color instantly.</p>\n  </div>\n</div>\n\n<style>\n.adapt-badge {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 10px 14px;\n  border-radius: 12px;\n  background: linear-gradient(135deg, #fff5e9, #ffe4d6, #ffd6e8);\n  background-size: 300% 300%;\n  animation: shift 6s ease infinite;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif;\n  max-width: 420px;\n  box-shadow: 0 4px 14px rgba(0,0,0,0.08);\n}\n\n.adapt-badge__icon {\n  display: flex;\n  gap: 4px;\n  flex-shrink: 0;\n}\n\n.dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  animation: pulse 2.4s ease-in-out infinite;\n}\n\n.dot-1 { background: #e8b389; animation-delay: 0s; }\n.dot-2 { background: #c98863; animation-delay: 0.3s; }\n.dot-3 { background: #8a5a3c; animation-delay: 0.6s; }\n\n.adapt-badge__text strong {\n  display: block;\n  font-size: 13px;\n  font-weight: 800;\n  color: #3a2a20;\n  margin-bottom: 3px;\n  letter-spacing: -0.2px;\n}\n\n.adapt-badge__text p {\n  margin: 0;\n  font-size: 11.5px;\n  color: #6b5a4e;\n  line-height: 1.35;\n}\n\n@keyframes shift {\n  0% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n  100% { background-position: 0% 50%; }\n}\n\n@keyframes pulse {\n  0%, 100% { transform: scale(1); opacity: 0.85; }\n  50% { transform: scale(1.25); opacity: 1; }\n}\n</style>"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -124,6 +130,7 @@
         "custom_liquid_4r8HJW",
         "text_XfnRxT",
         "custom_liquid_H9DXEK",
+        "custom_liquid_yGJMwi",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_PigjTJ",
