@@ -1,0 +1,380 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #9e132b; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .benefits-list {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 600px;\n    width: 100%;\n    margin: 0 auto;\n    box-sizing: border-box;\n  }\n  .benefits-list ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n  }\n  .benefits-list li {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n    padding: 10px 0;\n    font-size: clamp(16px, 2.5vw, 20px);\n    line-height: 1.4;\n    color: #1a1a1a;\n  }\n  .benefits-list .check-icon {\n    flex-shrink: 0;\n    width: 1em;\n    height: 1em;\n    margin-top: 0.15em;\n    color: #7B5FE8;\n  }\n  .benefits-list .check-icon svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n  .benefits-list b {\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n  @media (max-width: 480px) {\n    .benefits-list li {\n      gap: 8px;\n      padding: 8px 0;\n    }\n  }\n</style>\n\n<div class=\"benefits-list\">\n  <ul>\n    <li>\n      <span class=\"check-icon\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z\"/></svg>\n      </span>\n      <span><b>Achieve Instant</b> Radiant, Glass Skin</span>\n    </li>\n    <li>\n      <span class=\"check-icon\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z\"/></svg>\n      </span>\n      <span><b>Restore</b> Youthful Volume &amp; Smooth Deep Lines</span>\n    </li>\n    <li>\n      <span class=\"check-icon\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z\"/></svg>\n      </span>\n      <span><b>Reduce</b> Visible Wrinkles &amp; Saggy Skin</span>\n    </li>\n    <li>\n      <span class=\"check-icon\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z\"/></svg>\n      </span>\n      <span><b>All-in-One</b> Anti-Aging Solution</span>\n    </li>\n    <li>\n      <span class=\"check-icon\">\n        <svg viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z\"/></svg>\n      </span>\n      <span><b>Clinically</b> Proven Results</span>\n    </li>\n  </ul>\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "collapsible_tab_kXMmbB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "How is Koriderm different from expensive creams I've already tried?",
+            "content": "<p>Most luxury creams have molecules too large to absorb, so they sit on the surface and rub off overnight. Koriderm's protein complex helps it absorb up to 251% faster, reaching where fine lines actually form.</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .guarantee-box {\n    display: flex;\n    align-items: center;\n    gap: 20px;\n    border: 2px solid #E74C3C;\n    border-radius: 16px;\n    padding: 20px 24px;\n    max-width: 700px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: Arial, Helvetica, sans-serif;\n    background: #fff;\n  }\n  .guarantee-badge {\n    flex-shrink: 0;\n    width: clamp(60px, 12vw, 80px);\n    height: clamp(60px, 12vw, 80px);\n  }\n  .guarantee-badge svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n  .guarantee-text {\n    font-size: clamp(15px, 2.2vw, 18px);\n    line-height: 1.4;\n    color: #1a1a1a;\n  }\n  .guarantee-text b {\n    font-weight: 700;\n  }\n  @media (max-width: 480px) {\n    .guarantee-box {\n      flex-direction: column;\n      text-align: center;\n      gap: 12px;\n      padding: 18px;\n    }\n  }\n</style>\n\n<div class=\"guarantee-box\">\n  <div class=\"guarantee-badge\">\n    <svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n      <defs>\n        <path id=\"circlePath\" d=\"M 50,50 m -38,0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0\" />\n      </defs>\n      <circle cx=\"50\" cy=\"50\" r=\"48\" fill=\"none\" stroke=\"#E74C3C\" stroke-width=\"1.5\"/>\n      <circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"none\" stroke=\"#E74C3C\" stroke-width=\"1.5\"/>\n      <text font-size=\"6.3\" fill=\"#E74C3C\" font-family=\"Arial, sans-serif\" font-weight=\"700\" letter-spacing=\"0.5\">\n        <textPath href=\"#circlePath\" startOffset=\"0%\">\n          MONEY BACK GUARANTEE • MONEY BACK GUARANTEE •\n        </textPath>\n      </text>\n      <text x=\"50\" y=\"47\" text-anchor=\"middle\" font-size=\"15\" fill=\"#E74C3C\" font-family=\"Arial, sans-serif\" font-weight=\"700\">90</text>\n      <text x=\"50\" y=\"62\" text-anchor=\"middle\" font-size=\"11\" fill=\"#E74C3C\" font-family=\"Arial, sans-serif\" font-weight=\"700\">DAY</text>\n    </svg>\n  </div>\n  <div class=\"guarantee-text\">\n    <b>Try it risk free for 90 days.</b> If you don't see visible results after 90 days, you'll get a refund.\n  </div>\n</div>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "text_XfnRxT",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "collapsible_tab_kXMmbB",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wake Up to Brighter, Younger-Looking Eyes",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The delicate skin around your eyes shows age first. This Korean formula absorbs 3x times faster to deliver Centella Asiatica and collagen where you need it most — reducing puffiness and smoothing fine lines while you sleep.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/49_aa64c40b-3e7c-4feb-b5fb-82b745978c04.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .rprr-section {\n    max-width: 900px;\n    width: 100%;\n    margin: 0 auto;\n    padding: 40px 16px;\n    font-family: Arial, Helvetica, sans-serif;\n    text-align: center;\n    box-sizing: border-box;\n  }\n  .rprr-title {\n    font-size: clamp(24px, 4vw, 34px);\n    font-weight: 700;\n    color: #1a1a1a;\n    margin-bottom: 28px;\n  }\n  .rprr-carousel {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 16px;\n  }\n  .rprr-track-wrap {\n    overflow: hidden;\n    width: 100%;\n    max-width: 420px;\n    border-radius: 16px;\n  }\n  .rprr-track {\n    display: flex;\n    transition: transform 0.4s ease;\n  }\n  .rprr-slide {\n    flex: 0 0 100%;\n    box-sizing: border-box;\n  }\n  .rprr-slide img {\n    width: 100%;\n    height: auto;\n    display: block;\n    border-radius: 16px;\n  }\n  .rprr-quote {\n    font-size: clamp(15px, 2.2vw, 17px);\n    line-height: 1.5;\n    color: #333;\n    margin: 18px 0 8px;\n    font-style: italic;\n  }\n  .rprr-name {\n    font-size: 15px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n  .rprr-arrow {\n    flex-shrink: 0;\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    border: 1px solid #ddd;\n    background: #fff;\n    cursor: pointer;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n    color: #333;\n    user-select: none;\n  }\n  .rprr-arrow:hover {\n    background: #f5f5f5;\n  }\n  .rprr-dots {\n    display: flex;\n    justify-content: center;\n    gap: 8px;\n    margin-top: 16px;\n  }\n  .rprr-dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #ddd;\n    cursor: pointer;\n  }\n  .rprr-dot.active {\n    background: #7B5FE8;\n  }\n  @media (max-width: 600px) {\n    .rprr-arrow {\n      width: 32px;\n      height: 32px;\n      font-size: 15px;\n    }\n    .rprr-carousel {\n      gap: 8px;\n    }\n  }\n</style>\n\n<div class=\"rprr-section\">\n  <div class=\"rprr-title\">Real People, Real Results</div>\n\n  <div class=\"rprr-carousel\">\n    <div class=\"rprr-arrow\" id=\"rprrPrev\">&#10094;</div>\n\n    <div class=\"rprr-track-wrap\">\n      <div class=\"rprr-track\" id=\"rprrTrack\">\n        <div class=\"rprr-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/Koriderm_4.webp?v=1787679167\" alt=\"Janet S. review\">\n          <div class=\"rprr-quote\">\"I have sensitive skin and this is the first product that doesn't irritate me — only smooth, glowing results.\"</div>\n          <div class=\"rprr-name\">— Janet S.</div>\n        </div>\n        <div class=\"rprr-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/Koriderm_3_e6fe32d7-48c7-4f62-a26c-1b7ff6d0b074.webp?v=1787679169\" alt=\"Catherine R. review\">\n          <div class=\"rprr-quote\">\"This cream makes my skin feel firmer and brighter every morning. It's now part of my daily routine!\"</div>\n          <div class=\"rprr-name\">— Catherine R.</div>\n        </div>\n        <div class=\"rprr-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/14_6e533243-2bbf-4d45-9864-10761ae95620.webp?v=1787679170\" alt=\"Alice K. review\">\n          <div class=\"rprr-quote\">\"Results that speak for themselves. My skin feels smoother, and those deep lines are a thing of the past. I've finally found my 'holy grail' for confidence!\"</div>\n          <div class=\"rprr-name\">— Alice K.</div>\n        </div>\n        <div class=\"rprr-slide\">\n          <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/20_8b3506e4-727c-4146-99ac-2c564946bcd4.webp?v=1787679167\" alt=\"Linda M. review\">\n          <div class=\"rprr-quote\">\"My wrinkles around the eyes have softened so much. I finally feel confident without makeup!\"</div>\n          <div class=\"rprr-name\">— Linda M.</div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"rprr-arrow\" id=\"rprrNext\">&#10095;</div>\n  </div>\n\n  <div class=\"rprr-dots\" id=\"rprrDots\"></div>\n</div>\n\n<script>\n(function() {\n  const track = document.getElementById('rprrTrack');\n  const slides = track.querySelectorAll('.rprr-slide');\n  const dotsWrap = document.getElementById('rprrDots');\n  const prevBtn = document.getElementById('rprrPrev');\n  const nextBtn = document.getElementById('rprrNext');\n  let index = 0;\n\n  slides.forEach((_, i) => {\n    const dot = document.createElement('div');\n    dot.className = 'rprr-dot' + (i === 0 ? ' active' : '');\n    dot.addEventListener('click', () => goTo(i));\n    dotsWrap.appendChild(dot);\n  });\n  const dots = dotsWrap.querySelectorAll('.rprr-dot');\n\n  function goTo(i) {\n    index = (i + slides.length) % slides.length;\n    track.style.transform = 'translateX(-' + (index * 100) + '%)';\n    dots.forEach((d, di) => d.classList.toggle('active', di === index));\n  }\n\n  prevBtn.addEventListener('click', () => goTo(index - 1));\n  nextBtn.addEventListener('click', () => goTo(index + 1));\n\n  let startX = 0;\n  track.addEventListener('touchstart', e => startX = e.touches[0].clientX);\n  track.addEventListener('touchend', e => {\n    const diff = startX - e.changedTouches[0].clientX;\n    if (diff > 50) goTo(index + 1);\n    else if (diff < -50) goTo(index - 1);\n  });\n})();\n</script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_6Xj9FQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_QJYrYr": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_QJYrYr"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_QWbLRi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .stats-section {\n    display: flex;\n    align-items: center;\n    gap: 60px;\n    max-width: 1100px;\n    width: 100%;\n    margin: 0 auto;\n    padding: 40px 16px;\n    font-family: Arial, Helvetica, sans-serif;\n    box-sizing: border-box;\n  }\n  .stats-bars {\n    flex: 1 1 480px;\n    min-width: 280px;\n  }\n  .stats-bar-row {\n    margin-bottom: 28px;\n  }\n  .stats-bar-outer {\n    position: relative;\n    height: 68px;\n    border: 1px solid #1a1a1a;\n    border-radius: 34px;\n    overflow: hidden;\n    background: #fff;\n  }\n  .stats-bar-fill {\n    position: absolute;\n    top: 0;\n    left: 0;\n    height: 100%;\n    background: #C41E24;\n    border-radius: 34px 0 0 34px;\n    display: flex;\n    align-items: center;\n    padding-left: 24px;\n    box-sizing: border-box;\n  }\n  .stats-bar-fill span {\n    font-size: clamp(28px, 5vw, 40px);\n    font-weight: 400;\n    color: #fff;\n  }\n  .stats-bar-label {\n    margin-top: 12px;\n    font-size: clamp(14px, 2vw, 16px);\n    line-height: 1.4;\n    color: #1a1a1a;\n    text-transform: uppercase;\n  }\n  .stats-bar-label b {\n    font-weight: 700;\n  }\n  .stats-text {\n    flex: 1 1 320px;\n    min-width: 260px;\n  }\n  .stats-text h2 {\n    font-size: clamp(28px, 4vw, 38px);\n    font-weight: 500;\n    color: #1a1a1a;\n    line-height: 1.2;\n    margin: 0 0 20px;\n  }\n  .stats-text p {\n    font-size: clamp(15px, 2vw, 17px);\n    line-height: 1.6;\n    color: #333;\n    margin: 0;\n  }\n  @media (max-width: 800px) {\n    .stats-section {\n      flex-direction: column;\n      gap: 32px;\n    }\n    .stats-bar-outer {\n      height: 56px;\n    }\n    .stats-bar-fill {\n      padding-left: 18px;\n    }\n  }\n</style>\n\n<div class=\"stats-section\">\n  <div class=\"stats-bars\">\n\n    <div class=\"stats-bar-row\">\n      <div class=\"stats-bar-outer\">\n        <div class=\"stats-bar-fill\" style=\"width: 94%;\">\n          <span>94%</span>\n        </div>\n      </div>\n      <div class=\"stats-bar-label\">Noticed their <b>skin</b> appeared <b>healthier &amp; more radiant</b></div>\n    </div>\n\n    <div class=\"stats-bar-row\">\n      <div class=\"stats-bar-outer\">\n        <div class=\"stats-bar-fill\" style=\"width: 88%;\">\n          <span>88%</span>\n        </div>\n      </div>\n      <div class=\"stats-bar-label\">Saw their <b>skin</b> feel <b>firmer &amp; visibly lifted</b></div>\n    </div>\n\n    <div class=\"stats-bar-row\">\n      <div class=\"stats-bar-outer\">\n        <div class=\"stats-bar-fill\" style=\"width: 83%;\">\n          <span>83%</span>\n        </div>\n      </div>\n      <div class=\"stats-bar-label\">Noticed their <b>skin</b> felt <b>smoother</b> with fewer <b>wrinkles</b></div>\n    </div>\n\n  </div>\n\n  <div class=\"stats-text\">\n    <h2>The Results Speak for Themselves</h2>\n    <p>Real women. Real results. After just 6 weeks of nightly use, the transformation was undeniable.</p>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_fghHFA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HDM9Jr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Proven Results",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_Qw9dmy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Studies show visible improvements in wrinkle count, size, and depth after consistent use.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDM9Jr",
+        "text_Qw9dmy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Kori_Resaults.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_4PhgQT": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .faq-section {\n    max-width: 900px;\n    width: 100%;\n    margin: 0 auto;\n    padding: 40px 16px;\n    font-family: Arial, Helvetica, sans-serif;\n    box-sizing: border-box;\n  }\n  .faq-title {\n    font-size: clamp(28px, 5vw, 42px);\n    font-weight: 700;\n    color: #1a1a1a;\n    text-align: center;\n    margin-bottom: 32px;\n  }\n  .faq-item {\n    border-bottom: 1px solid #e5e5e5;\n  }\n  .faq-item:first-child {\n    border-top: 1px solid #e5e5e5;\n  }\n  .faq-question {\n    display: flex;\n    align-items: center;\n    gap: 14px;\n    padding: 18px 16px;\n    cursor: pointer;\n    background: #fff;\n    transition: background 0.2s ease;\n  }\n  .faq-item.active .faq-question {\n    background: #f7f7f7;\n  }\n  .faq-icon {\n    flex-shrink: 0;\n    width: 22px;\n    height: 22px;\n  }\n  .faq-icon svg {\n    width: 100%;\n    height: 100%;\n    display: block;\n  }\n  .faq-question-text {\n    flex: 1;\n    font-size: clamp(15px, 2vw, 17px);\n    color: #2b2fa3;\n  }\n  .faq-item.active .faq-question-text {\n    text-decoration: underline;\n  }\n  .faq-chevron {\n    flex-shrink: 0;\n    width: 16px;\n    height: 16px;\n    transition: transform 0.3s ease;\n  }\n  .faq-item.active .faq-chevron {\n    transform: rotate(180deg);\n  }\n  .faq-answer {\n    max-height: 0;\n    overflow: hidden;\n    transition: max-height 0.3s ease;\n    padding: 0 16px 0 52px;\n  }\n  .faq-item.active .faq-answer {\n    max-height: 300px;\n    padding-bottom: 18px;\n  }\n  .faq-answer p {\n    margin: 0;\n    font-size: clamp(14px, 1.8vw, 16px);\n    line-height: 1.6;\n    color: #444;\n  }\n  @media (max-width: 500px) {\n    .faq-answer {\n      padding-left: 40px;\n    }\n  }\n</style>\n\n<div class=\"faq-section\">\n  <div class=\"faq-title\">Frequently Asked Questions</div>\n\n  <div class=\"faq-list\">\n    <div class=\"faq-item\">\n      <div class=\"faq-question\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">How long until I see results?</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n      <div class=\"faq-answer\">\n        <p>Many customers report feeling immediate hydration and softer skin upon the first application. For visible improvements in skin texture, radiance, and the appearance of fine lines, we recommend consistent daily use for at least 30 days to allow your skin cycle to adjust.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <div class=\"faq-question\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">Is this safe to use?</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n      <div class=\"faq-answer\">\n        <p>Yes! The Koriderm formula uses purified Centella Asiatica to soothe and support the skin's natural moisture barrier. It is formulated to be gentle and is suitable for most skin types, including sensitive or reactive skin. We always recommend performing a patch test before full use.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <div class=\"faq-question\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">Where can I use the Time Reverse cream?</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n      <div class=\"faq-answer\">\n        <p>You can use this cream on the face, neck, and décolletage. It is specifically designed to target areas prone to dryness and fine lines, such as around the eyes, forehead, and mouth. It can also be applied to areas with uneven texture to help smooth the skin's appearance.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <div class=\"faq-question\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">Does it have a scent?</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n      <div class=\"faq-answer\">\n        <p>The cream is formulated without added synthetic fragrances. It is nearly odorless, possessing only a very faint, natural scent from the botanical ingredients that dissipates quickly after application.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <div class=\"faq-question\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">Do I need other products with this cream?</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n      <div class=\"faq-answer\">\n        <p>This is a multi-action moisturizer designed to hydrate, brighten, and smooth the skin in one step. It works beautifully on its own as a daily moisturizer, but it is also lightweight enough to layer over your favorite serums if you have a multi-step routine.</p>\n      </div>\n    </div>\n\n    <div class=\"faq-item\">\n      <div class=\"faq-question\" data-link=\"https://koriderm.com/a/account/login\">\n        <span class=\"faq-icon\">\n          <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5\" stroke-linecap=\"round\"/><circle cx=\"12\" cy=\"17\" r=\"0.5\" fill=\"currentColor\"/></svg>\n        </span>\n        <span class=\"faq-question-text\">Manage your subscription</span>\n        <span class=\"faq-chevron\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M6 9l6 6 6-6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<script>\n(function() {\n  document.querySelectorAll('.faq-question').forEach(q => {\n    q.addEventListener('click', function() {\n      const link = this.getAttribute('data-link');\n      if (link) {\n        window.location.href = link;\n        return;\n      }\n      const item = this.parentElement;\n      const wasActive = item.classList.contains('active');\n      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));\n      if (!wasActive) item.classList.add('active');\n    });\n  });\n})();\n</script>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "image_with_text_X6KRyA",
+    "custom_liquid_cqKTNy",
+    "scrolling_promotion_6Xj9FQ",
+    "scrolling_promotion_pD6Mdt",
+    "custom_liquid_QWbLRi",
+    "image_with_text_fghHFA",
+    "custom_liquid_4PhgQT"
+  ]
+}
