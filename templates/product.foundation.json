@@ -35,10 +35,17 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "price_size": "medium",
             "show_badges": true,
             "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_tYB7RG": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .price-row2 {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    font-family: Arial, Helvetica, sans-serif;\n  }\n  .price-current2 {\n    font-size: clamp(20px, 3vw, 24px);\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n  .price-original2 {\n    font-size: clamp(14px, 2vw, 16px);\n    color: #999;\n    text-decoration: line-through;\n  }\n  .price-badge2 {\n    background: #E02020;\n    color: #fff;\n    font-size: clamp(11px, 1.5vw, 12.5px);\n    font-weight: 700;\n    padding: 3px 8px;\n    border-radius: 4px;\n    white-space: nowrap;\n  }\n</style>\n\n<div class=\"price-row2\">\n  <span class=\"price-current2\">$25.99</span>\n  <span class=\"price-original2\">$33.00</span>\n  <span class=\"price-badge2\">21% OFF</span>\n</div>"
           }
         },
         "text_XfnRxT": {
@@ -108,6 +115,7 @@
         "custom_liquid_Q4eMAn",
         "title",
         "price",
+        "custom_liquid_tYB7RG",
         "text_XfnRxT",
         "custom_liquid_H9DXEK",
         "variant_picker",
