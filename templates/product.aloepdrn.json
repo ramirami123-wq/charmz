@@ -1,0 +1,349 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #f5a623; /* gold/orange to match original */\n  }\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_yRQmCt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .skin-benefits-block {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 700px;\n  }\n\n  .benefits-heading {\n    font-size: 15px;\n    line-height: 1.5;\n    color: #1a1a1a;\n    margin: 0 0 20px 0;\n  }\n\n  .benefits-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 18px 24px;\n  }\n\n  .benefit-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n  }\n\n  .benefit-icon {\n    flex-shrink: 0;\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    background: #fbead9;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .benefit-icon svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .benefit-text {\n    font-size: 14px;\n    line-height: 1.4;\n    color: #1a1a1a;\n    font-weight: 600;\n    margin: 0;\n  }\n\n  /* Mobile: everything scaled down ~25% */\n  @media (max-width: 480px) {\n    .benefits-heading {\n      font-size: 11px;\n      margin-bottom: 15px;\n    }\n\n    .benefits-grid {\n      grid-template-columns: 1fr;\n      gap: 12px;\n    }\n\n    .benefit-item {\n      gap: 9px;\n    }\n\n    .benefit-icon {\n      width: 30px;\n      height: 30px;\n    }\n\n    .benefit-icon svg {\n      width: 15px;\n      height: 15px;\n    }\n\n    .benefit-text {\n      font-size: 10.5px;\n    }\n  }\n</style>"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "custom_liquid_H9DXEK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"skin-benefits-block\">\n  <p class=\"benefits-heading\">\n    Your sun spots and dark spots were never permanent as they look: kojic acid and turmeric, finally sealed on them long enough to fade, the full 8 hours you sleep.\n  </p>\n\n  <div class=\"benefits-grid\">\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M19 9c0-3.5-3-6-7-6-3.2 0-5.8 1.7-6.7 4.2L3 8.5V12h2l1 2v2h3v-1.5h4V16h3v-3l1.5-1.2C18.4 11 19 10.1 19 9z\"/>\n          <circle cx=\"15\" cy=\"8\" r=\"1\" fill=\"#1a1a1a\" stroke=\"none\"/>\n          <path d=\"M8 9l-1.5-1.5\"/>\n        </svg>\n      </div>\n      <p class=\"benefit-text\">Stop wasting money on serums that never reached it</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <circle cx=\"10\" cy=\"12\" r=\"7\"/>\n          <circle cx=\"7.5\" cy=\"10.5\" r=\"0.8\" fill=\"#1a1a1a\" stroke=\"none\"/>\n          <circle cx=\"12.5\" cy=\"10.5\" r=\"0.8\" fill=\"#1a1a1a\" stroke=\"none\"/>\n          <path d=\"M7.5 14c0.8 1 2 1.5 2.5 1.5s1.7-0.5 2.5-1.5\"/>\n          <path d=\"M17 8v4M15 10h4\"/>\n        </svg>\n      </div>\n      <p class=\"benefit-text\">Glow the first morning, Spots Softer by Week 3</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 3c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11z\"/>\n        </svg>\n      </div>\n      <p class=\"benefit-text\">Fades dark spots &amp; sun damage week by week</p>\n    </div>\n\n    <div class=\"benefit-item\">\n      <div class=\"benefit-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n          <path d=\"M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z\"/>\n          <path d=\"M12 9v6M9 12h6\"/>\n        </svg>\n      </div>\n      <p class=\"benefit-text\">Evens &amp; brightens skin tone, never whitens</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .skin-benefits-block {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 700px;\n  }\n\n  .benefits-heading {\n    font-size: 15px;\n    line-height: 1.5;\n    color: #1a1a1a;\n    margin: 0 0 20px 0;\n  }\n\n  .benefits-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 18px 24px;\n  }\n\n  .benefit-item {\n    display: flex;\n    align-items: flex-start;\n    gap: 12px;\n  }\n\n  .benefit-icon {\n    flex-shrink: 0;\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    background: #fbead9;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .benefit-icon svg {\n    width: 20px;\n    height: 20px;\n  }\n\n  .benefit-text {\n    font-size: 14px;\n    line-height: 1.4;\n    color: #1a1a1a;\n    font-weight: 600;\n    margin: 0;\n  }\n\n  /* Mobile: sizes bumped +10% from previous mobile version */\n  @media (max-width: 480px) {\n    .benefits-heading {\n      font-size: 12px;\n      margin-bottom: 16px;\n    }\n\n    .benefits-grid {\n      grid-template-columns: 1fr;\n      gap: 13px;\n    }\n\n    .benefit-item {\n      gap: 10px;\n    }\n\n    .benefit-icon {\n      width: 33px;\n      height: 33px;\n    }\n\n    .benefit-icon svg {\n      width: 16.5px;\n      height: 16.5px;\n    }\n\n    .benefit-text {\n      font-size: 11.5px;\n    }\n  }\n</style>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"guarantee-card\">\n  <div class=\"guarantee-icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" fill=\"none\" stroke=\"#5c4a1e\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n      <ellipse cx=\"16\" cy=\"30\" rx=\"9\" ry=\"4\"/>\n      <path d=\"M7 30v4c0 2.2 4 4 9 4s9-1.8 9-4v-4\"/>\n      <ellipse cx=\"22\" cy=\"21\" rx=\"9\" ry=\"4\"/>\n      <path d=\"M13 21v4c0 2.2 4 4 9 4s9-1.8 9-4v-4\"/>\n      <path d=\"M15 8v10M12 10.5h6M12 15h6\"/>\n    </svg>\n  </div>\n  <div class=\"guarantee-content\">\n    <p class=\"guarantee-heading\">60-Day Money Back Guarantee</p>\n    <p class=\"guarantee-text\">\n      Use it nightly, and if your skin isn't looking more even after 8 weeks, send it back — opened or unopened — for a full refund.*\n    </p>\n  </div>\n</div>\n\n<style>\n  .guarantee-card {\n    display: flex;\n    align-items: center;\n    gap: 20px;\n    background: linear-gradient(135deg, #f6dfa0, #e8c073);\n    border: 1px dashed #c9a55a;\n    border-radius: 14px;\n    padding: 20px 24px;\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 700px;\n    box-sizing: border-box;\n  }\n\n  .guarantee-icon {\n    flex-shrink: 0;\n    width: 44px;\n    height: 44px;\n  }\n\n  .guarantee-icon svg {\n    width: 100%;\n    height: 100%;\n  }\n\n  .guarantee-content {\n    min-width: 0;\n  }\n\n  .guarantee-heading {\n    font-size: 17px;\n    font-weight: 700;\n    color: #1a1a1a;\n    margin: 0 0 6px 0;\n  }\n\n  .guarantee-text {\n    font-size: 14px;\n    line-height: 1.5;\n    color: #1a1a1a;\n    margin: 0;\n  }\n\n  @media (max-width: 480px) {\n    .guarantee-card {\n      gap: 14px;\n      padding: 14px 16px;\n      border-radius: 12px;\n    }\n\n    .guarantee-icon {\n      width: 34px;\n      height: 34px;\n    }\n\n    .guarantee-heading {\n      font-size: 14px;\n      margin-bottom: 4px;\n    }\n\n    .guarantee-text {\n      font-size: 12px;\n      line-height: 1.4;\n    }\n  }\n</style>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "custom_liquid_yRQmCt",
+        "text_XfnRxT",
+        "custom_liquid_H9DXEK",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"jlr-reviews-section\">\n  <h2 class=\"jlr-heading\">\n    Loved by <span class=\"jlr-highlight\">350,000+</span>\n  </h2>\n\n  <div class=\"jlr-grid\">\n    <div class=\"jlr-card\">\n      <div class=\"jlr-header\">\n        <span class=\"jlr-name\">Rania, 52</span>\n        <span class=\"jlr-stars\">★★★★★</span>\n      </div>\n      <p class=\"jlr-text\">\n        \"Over the years I've spent a fortune on dark-spot creams — high-end, drugstore, all of it. Most did nothing. This is the first one where I actually saw a difference within weeks, not months.\"\n      </p>\n    </div>\n\n    <div class=\"jlr-card\">\n      <div class=\"jlr-header\">\n        <span class=\"jlr-name\">Layal, 47</span>\n        <span class=\"jlr-stars\">★★★★★</span>\n      </div>\n      <p class=\"jlr-text\">\n        \"I'd basically given up on my hyperpigmentation. Brighter the first morning, and more even week by week. My husband even asked what I changed in my routine.\"\n      </p>\n    </div>\n\n    <div class=\"jlr-card\">\n      <div class=\"jlr-header\">\n        <span class=\"jlr-name\">Nour, 44</span>\n        <span class=\"jlr-stars\">★★★★★</span>\n      </div>\n      <p class=\"jlr-text\">\n        \"I've wasted so much money returning products that did nothing for my spots. This one I'm keeping. My tone just looks calmer and more even overall.\"\n      </p>\n    </div>\n\n    <div class=\"jlr-card\">\n      <div class=\"jlr-header\">\n        <span class=\"jlr-name\">Maya, 45</span>\n        <span class=\"jlr-stars\">★★★★★</span>\n      </div>\n      <p class=\"jlr-text\">\n        \"I almost didn't try it — I'd heard 'this one's different' a hundred times before. Read the reviews, took a chance. Brighter within the first two weeks, still improving.\"\n      </p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .jlr-reviews-section {\n    font-family: Arial, Helvetica, sans-serif;\n    padding: 20px;\n    box-sizing: border-box;\n    width: 100%;\n    max-width: 100vw;\n    overflow-x: hidden;\n  }\n\n  .jlr-reviews-section * {\n    box-sizing: border-box;\n  }\n\n  .jlr-heading {\n    text-align: center;\n    font-size: 32px;\n    font-weight: 800;\n    color: #1a1a1a;\n    margin: 0 0 30px 0;\n  }\n\n  .jlr-highlight {\n    background: #cf9d3f;\n    color: #fff;\n    padding: 4px 12px;\n    border-radius: 4px;\n    white-space: nowrap;\n  }\n\n  .jlr-grid {\n    display: grid;\n    grid-template-columns: repeat(4, minmax(0, 1fr));\n    gap: 16px;\n    max-width: 1400px;\n    margin: 0 auto;\n    width: 100%;\n  }\n\n  .jlr-card {\n    background: #f5f5f4;\n    border-radius: 10px;\n    padding: 20px;\n    min-width: 0;\n  }\n\n  .jlr-header {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 8px;\n    margin-bottom: 12px;\n    flex-wrap: wrap;\n  }\n\n  .jlr-name {\n    font-size: 15px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n\n  .jlr-stars {\n    color: #cf9d3f;\n    font-size: 14px;\n    letter-spacing: 1px;\n  }\n\n  .jlr-text {\n    font-size: 14px;\n    line-height: 1.5;\n    color: #1a1a1a;\n    margin: 0;\n    overflow-wrap: break-word;\n    word-break: break-word;\n  }\n\n  @media (max-width: 900px) {\n    .jlr-grid {\n      grid-template-columns: repeat(2, minmax(0, 1fr));\n    }\n  }\n\n  @media (max-width: 480px) {\n    .jlr-heading {\n      font-size: 22px;\n      margin-bottom: 20px;\n    }\n\n    .jlr-grid {\n      grid-template-columns: minmax(0, 1fr);\n      gap: 12px;\n    }\n\n    .jlr-card {\n      padding: 16px;\n    }\n\n    .jlr-name {\n      font-size: 13px;\n    }\n\n    .jlr-text {\n      font-size: 12.5px;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_6Xj9FQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_QJYrYr": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_QJYrYr"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#f5d37d",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_QWbLRi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"fade-section\">\n  <div class=\"fade-image\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/1A_B_A_5_375x_375x_9ececc1a-da49-4fdd-aea5-879e924124ab.webp?v=1786825088\" alt=\"Before and after results on melasma and dark spots\" loading=\"lazy\">\n  </div>\n\n  <div class=\"fade-content\">\n    <h2 class=\"fade-heading\">\n      Made To Fade <span class=\"highlight\">Melasma, Sun Spots &amp; Dark Spots</span>\n    </h2>\n\n    <p class=\"fade-text\">\n      Meet the overnight mask built for the melasma, sun spots, and dark spots nothing else has touched.\n    </p>\n\n    <p class=\"fade-text\">\n      Most serums evaporate within a couple of hours, long before they reach the pigment sitting deeper down. This one seals kojic acid and turmeric against your skin for a full 8 hours while you sleep, the contact time they always needed to actually get there.\n    </p>\n\n    <p class=\"fade-text\">\n      You wake up brighter the first morning, and your tone keeps evening out over the following weeks. It evens your skin, it never lightens or bleaches it.\n    </p>\n\n    <div class=\"fade-highlights\">\n      <div class=\"highlight-item\">\n        <span class=\"sparkle\">✦</span>\n        <span>Fades Sun &amp; Dark Spots</span>\n      </div>\n      <div class=\"highlight-item\">\n        <span class=\"sparkle\">✦</span>\n        <span>Evens your tone, never whitens</span>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .fade-section {\n    display: flex;\n    align-items: stretch;\n    gap: 40px;\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 1200px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    border-top: 3px solid #e8c073;\n    padding-top: 20px;\n  }\n\n  .fade-image {\n    flex: 1;\n    min-width: 0;\n  }\n\n  .fade-image img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    display: block;\n    border-radius: 4px;\n  }\n\n  .fade-content {\n    flex: 1;\n    min-width: 0;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    padding: 20px 0;\n  }\n\n  .fade-heading {\n    font-size: 26px;\n    font-weight: 800;\n    color: #1a1a1a;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n  }\n\n  .highlight {\n    background: #e8c073;\n    color: #fff;\n    padding: 2px 8px;\n    box-decoration-break: clone;\n    -webkit-box-decoration-break: clone;\n  }\n\n  .fade-text {\n    font-size: 15px;\n    line-height: 1.6;\n    color: #1a1a1a;\n    margin: 0 0 16px 0;\n  }\n\n  .fade-highlights {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 24px;\n    margin-top: 8px;\n  }\n\n  .highlight-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 14px;\n    font-weight: 600;\n    color: #1a1a1a;\n  }\n\n  .sparkle {\n    color: #e8a94a;\n    font-size: 16px;\n    flex-shrink: 0;\n  }\n\n  @media (max-width: 768px) {\n    .fade-section {\n      flex-direction: column;\n      gap: 20px;\n    }\n\n    .fade-heading {\n      font-size: 19px;\n      margin-bottom: 14px;\n    }\n\n    .fade-text {\n      font-size: 13px;\n      margin-bottom: 12px;\n    }\n\n    .fade-highlights {\n      gap: 14px;\n    }\n\n    .highlight-item {\n      font-size: 12.5px;\n    }\n\n    .fade-content {\n      padding: 0;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_PyWqQE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"results-section\">\n  <h2 class=\"results-heading\">\n    Real <span class=\"highlight\">Results</span>\n  </h2>\n\n  <div class=\"results-grid\">\n    <div class=\"result-card\">\n      <p class=\"result-percent\">73%</p>\n      <p class=\"result-title\">saw more even tone<br>by week 3</p>\n      <p class=\"result-subtext\">Based on an 8-week independent customer panel</p>\n    </div>\n\n    <div class=\"result-card\">\n      <p class=\"result-percent\">82%</p>\n      <p class=\"result-title\">saw their spots look softer<br>by week 6</p>\n      <p class=\"result-subtext\">Based on an 8-week independent customer panel</p>\n    </div>\n\n    <div class=\"result-card\">\n      <p class=\"result-percent\">88%</p>\n      <p class=\"result-title\">saw brighter, fresher skin<br>the first week</p>\n      <p class=\"result-subtext\">Based on an 8-week independent customer panel</p>\n    </div>\n  </div>\n</div>\n\n<style>\n  .results-section {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    box-sizing: border-box;\n  }\n\n  .results-heading {\n    text-align: center;\n    font-size: 34px;\n    font-weight: 800;\n    color: #1a1a1a;\n    margin: 0 0 30px 0;\n  }\n\n  .highlight {\n    background: #e0a83e;\n    color: #fff;\n    padding: 2px 10px;\n  }\n\n  .results-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n  }\n\n  .result-card {\n    background: #fbf0dc;\n    border-radius: 14px;\n    padding: 30px 24px;\n    text-align: center;\n    box-sizing: border-box;\n  }\n\n  .result-percent {\n    font-size: 64px;\n    font-weight: 800;\n    color: #e0b25a;\n    line-height: 1;\n    margin: 0 0 16px 0;\n  }\n\n  .result-title {\n    font-size: 16px;\n    font-weight: 700;\n    color: #1a1a1a;\n    line-height: 1.4;\n    margin: 0 0 10px 0;\n  }\n\n  .result-subtext {\n    font-size: 12px;\n    color: #555;\n    margin: 0;\n  }\n\n  @media (max-width: 900px) {\n    .results-grid {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n  }\n\n  @media (max-width: 480px) {\n    .results-heading {\n      font-size: 22px;\n      margin-bottom: 20px;\n    }\n\n    .result-card {\n      padding: 22px 18px;\n    }\n\n    .result-percent {\n      font-size: 44px;\n      margin-bottom: 10px;\n    }\n\n    .result-title {\n      font-size: 14px;\n    }\n\n    .result-subtext {\n      font-size: 11px;\n    }\n  }\n</style>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_drDHVE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"why-section\">\n  <h2 class=\"why-heading\">Why Jolie?</h2>\n\n  <div class=\"why-columns-header\">\n    <div class=\"why-col-label\"></div>\n    <div class=\"why-col-label why-col-product\">\n      <div class=\"product-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 90\">\n          <path d=\"M20 8h20v10c4 4 6 10 6 18v42c0 3-2 5-5 5H19c-3 0-5-2-5-5V36c0-8 2-14 6-18V8z\" fill=\"#e8d4a3\" stroke=\"#c9a55a\" stroke-width=\"1.5\"/>\n          <rect x=\"20\" y=\"8\" width=\"20\" height=\"8\" fill=\"#e8d4a3\" stroke=\"#c9a55a\" stroke-width=\"1.5\"/>\n          <text x=\"30\" y=\"26\" font-size=\"6\" text-anchor=\"middle\" fill=\"#5c4a1e\" font-family=\"Arial\" font-weight=\"700\">JOLIE</text>\n        </svg>\n      </div>\n      <span>Jolie</span>\n    </div>\n    <div class=\"why-col-label why-col-other\">\n      <div class=\"product-icon\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 60 90\">\n          <path d=\"M25 10h10v8l6 6v56c0 3-2 5-5 5H24c-3 0-5-2-5-5V24l6-6v-8z\" fill=\"#555\" stroke=\"#333\" stroke-width=\"1.5\"/>\n        </svg>\n      </div>\n      <span>Serums &amp; creams alone</span>\n    </div>\n  </div>\n\n  <div class=\"why-rows\">\n    <div class=\"why-row\">\n      <div class=\"why-row-label\">Stays on long enough to work</div>\n      <div class=\"why-row-jolie\">Sealed against skin ~8 hours overnight</div>\n      <div class=\"why-row-other\">Evaporate or rub off in ~2 hours</div>\n    </div>\n\n    <div class=\"why-row\">\n      <div class=\"why-row-label\">Reaches the pigment</div>\n      <div class=\"why-row-jolie\">Given the hours to penetrate to where spots form</div>\n      <div class=\"why-row-other\">Mostly sits on the surface</div>\n    </div>\n\n    <div class=\"why-row\">\n      <div class=\"why-row-label\">Routine</div>\n      <div class=\"why-row-jolie\">One nightly step</div>\n      <div class=\"why-row-other\">A multi-step stack to keep up</div>\n    </div>\n\n    <div class=\"why-row\">\n      <div class=\"why-row-label\">Evens vs strips</div>\n      <div class=\"why-row-jolie\">Evens your skin tone</div>\n      <div class=\"why-row-other\">Can leave skin dry or patchy</div>\n    </div>\n\n    <div class=\"why-row\">\n      <div class=\"why-row-label\">Honest about pace</div>\n      <div class=\"why-row-jolie\">Brighter early, more even over weeks</div>\n      <div class=\"why-row-other\">\"Gone fast\" promises that fizzle</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .why-section {\n    font-family: Arial, Helvetica, sans-serif;\n    background: #f5f5f4;\n    border-radius: 20px;\n    padding: 40px;\n    max-width: 1000px;\n    margin: 0 auto;\n    box-sizing: border-box;\n  }\n\n  .why-heading {\n    text-align: center;\n    font-size: 30px;\n    font-weight: 800;\n    color: #1a1a1a;\n    margin: 0 0 24px 0;\n  }\n\n  .why-columns-header {\n    display: grid;\n    grid-template-columns: 1.2fr 1fr 1fr;\n    gap: 16px;\n    align-items: end;\n    border-bottom: 2px solid #1a1a1a;\n    padding-bottom: 12px;\n    margin-bottom: 8px;\n  }\n\n  .why-col-label {\n    text-align: center;\n    font-size: 16px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n\n  .product-icon {\n    width: 40px;\n    height: 60px;\n    margin: 0 auto 8px auto;\n  }\n\n  .product-icon svg {\n    width: 100%;\n    height: 100%;\n  }\n\n  .why-rows {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .why-row {\n    display: grid;\n    grid-template-columns: 1.2fr 1fr 1fr;\n    gap: 16px;\n    padding: 18px 0;\n    border-bottom: 1px solid #ddd;\n  }\n\n  .why-row-label {\n    font-size: 14px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n\n  .why-row-jolie {\n    font-size: 14px;\n    color: #1a1a1a;\n  }\n\n  .why-row-other {\n    font-size: 14px;\n    color: #999;\n  }\n\n  @media (max-width: 700px) {\n    .why-section {\n      padding: 20px;\n      border-radius: 14px;\n    }\n\n    .why-heading {\n      font-size: 20px;\n      margin-bottom: 16px;\n    }\n\n    .why-columns-header {\n      display: none;\n    }\n\n    .why-row {\n      grid-template-columns: 1fr;\n      gap: 6px;\n      padding: 14px 0;\n    }\n\n    .why-row-label {\n      font-size: 13px;\n    }\n\n    .why-row-jolie::before {\n      content: \"Jolie: \";\n      font-weight: 700;\n      color: #1a1a1a;\n    }\n\n    .why-row-other::before {\n      content: \"Others: \";\n      font-weight: 700;\n      color: #999;\n    }\n\n    .why-row-jolie,\n    .why-row-other {\n      font-size: 12.5px;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_9AGPLc": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"reviews-mixed-section\">\n  <div class=\"reviews-summary\">\n    <span name=\"rt-stars\" class=\"rt-stars\">★★★★★</span>\n    <span class=\"rt-summary-text\">4.8/5 based on <strong>500+ reviews</strong></span>\n  </div>\n\n  <div class=\"reviews-mixed-grid\">\n    <div class=\"rm-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/POLQGXIReM.jpg?v=1786825467\" alt=\"Customer result photo\" loading=\"lazy\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Sarah T.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">I love this mask! It brightens my skin and I can already see my spots fading — my pores look smaller too.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/fHp_IdQlP9.jpg?v=1786825467\" alt=\"Customer result photo\" loading=\"lazy\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Layal K.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">Authentic and works exactly as described. I have sensitive skin and it didn't break me out — it actually calmed things down.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0957/2981/1738/files/EbqVZVXNKo.jpg?v=1786825467\" alt=\"Customer result photo\" loading=\"lazy\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Rania M.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★☆</div>\n        <p class=\"rm-text\">The glow up is real. My skin felt more plump and hydrated by morning, and my fine lines were barely noticeable.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card rm-card-noimg\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Nour A.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">I wore this as an overnight mask and woke up with my face noticeably brighter and more hydrated. So far anyone with sensitive skin or dullness, I'd recommend it.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card rm-card-noimg\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Maya H.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">Such a lifesaver! My skin has gotten noticeably brighter and so much clearer. I had a bit of doubt but I'm so glad I tried it.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card rm-card-noimg\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Dana F.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">I've tried so many products for my dark spots and this is the first one where I actually saw a difference within weeks.</p>\n      </div>\n    </div>\n\n    <div class=\"rm-card rm-card-noimg\">\n      <div class=\"rm-body\">\n        <div class=\"rm-header\">\n          <span class=\"rm-name\">Yasmine C.</span>\n          <span class=\"rm-verified\">✓ Verified</span>\n        </div>\n        <div class=\"rm-stars\">★★★★★</div>\n        <p class=\"rm-text\">One nightly step and I already notice my tone looking more even. Simple routine, real results.</p>\n      </div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .reviews-mixed-section {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 1400px;\n    margin: 0 auto;\n    padding: 20px;\n    box-sizing: border-box;\n  }\n\n  .reviews-summary {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    flex-wrap: wrap;\n    margin-bottom: 24px;\n  }\n\n  .rt-stars {\n    color: #e0a83e;\n    font-size: 20px;\n    letter-spacing: 2px;\n  }\n\n  .rt-summary-text {\n    font-size: 15px;\n    color: #1a1a1a;\n  }\n\n  .reviews-mixed-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 16px;\n  }\n\n  .rm-card {\n    background: #fff;\n    border-radius: 10px;\n    overflow: hidden;\n    border: 1px solid #eee;\n    display: flex;\n    flex-direction: column;\n  }\n\n  .rm-card-noimg {\n    background: #f5f5f4;\n    border: none;\n  }\n\n  .rm-card img {\n    width: 100%;\n    display: block;\n    aspect-ratio: 4/3;\n    object-fit: cover;\n  }\n\n  .rm-body {\n    padding: 14px 16px;\n    flex: 1;\n  }\n\n  .rm-header {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    flex-wrap: wrap;\n    margin-bottom: 4px;\n  }\n\n  .rm-name {\n    font-size: 14px;\n    font-weight: 700;\n    color: #1a1a1a;\n  }\n\n  .rm-verified {\n    font-size: 12px;\n    color: #4a90d9;\n  }\n\n  .rm-stars {\n    color: #e0a83e;\n    font-size: 14px;\n    letter-spacing: 1px;\n    margin-bottom: 8px;\n  }\n\n  .rm-text {\n    font-size: 13px;\n    line-height: 1.5;\n    color: #333;\n    margin: 0;\n  }\n\n  @media (max-width: 900px) {\n    .reviews-mixed-grid {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n\n  @media (max-width: 480px) {\n    .reviews-mixed-grid {\n      grid-template-columns: 1fr;\n      gap: 12px;\n    }\n\n    .rm-name {\n      font-size: 13px;\n    }\n\n    .rm-text {\n      font-size: 12.5px;\n    }\n\n    .rt-summary-text {\n      font-size: 13px;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "custom_liquid_cqKTNy",
+    "scrolling_promotion_6Xj9FQ",
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt",
+    "custom_liquid_QWbLRi",
+    "custom_liquid_PyWqQE",
+    "custom_liquid_drDHVE",
+    "custom_liquid_9AGPLc"
+  ]
+}
