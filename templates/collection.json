@@ -143,6 +143,28 @@
         "padding_top": 36,
         "padding_bottom": 72
       }
+    },
+    "custom_liquid_8M7ehP": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"agg-proof-section\">\n  <div class=\"agg-proof-stats\">\n    <div class=\"agg-stat\">\n      <p class=\"agg-stat-number\">★4.9</p>\n      <p class=\"agg-stat-label\">Average rating across EQQUALBERRY</p>\n    </div>\n    <div class=\"agg-stat\">\n      <p class=\"agg-stat-number\">490+</p>\n      <p class=\"agg-stat-label\">Verified customer reviews</p>\n    </div>\n    <div class=\"agg-stat\">\n      <p class=\"agg-stat-number\">100%</p>\n      <p class=\"agg-stat-label\">Would recommend to a friend</p>\n    </div>\n  </div>\n  <div class=\"agg-proof-quotes\">\n    <div class=\"agg-quote\">\n      <div class=\"agg-quote-stars\">★★★★★</div>\n      <p class=\"agg-quote-text\">\"I've tried three of these now — the serum calmed my redness in days, and the cream actually faded my dark spots. First skincare line that's worked across the board for me.\"</p>\n      <p class=\"agg-quote-name\">— Rania M., Verified Buyer</p>\n    </div>\n    <div class=\"agg-quote\">\n      <div class=\"agg-quote-stars\">★★★★★</div>\n      <p class=\"agg-quote-text\">\"Started with the plumping serum for my pores, added the cream after. My skin feels firmer and just looks healthier overall.\"</p>\n      <p class=\"agg-quote-name\">— Layal K., Verified Buyer</p>\n    </div>\n    <div class=\"agg-quote\">\n      <div class=\"agg-quote-stars\">★★★★★</div>\n      <p class=\"agg-quote-text\">\"Didn't expect gentle to also mean effective. No irritation, and I actually see results within the first couple weeks every time.\"</p>\n      <p class=\"agg-quote-name\">— Nour A., Verified Buyer</p>\n    </div>\n  </div>\n</div>\n<style>\n  .agg-proof-section {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 30px 20px;\n    box-sizing: border-box;\n  }\n  .agg-proof-stats {\n    display: flex;\n    justify-content: center;\n    gap: 60px;\n    flex-wrap: wrap;\n    text-align: center;\n    margin-bottom: 36px;\n    padding-bottom: 30px;\n    border-bottom: 1px solid #e5e5e5;\n  }\n  .agg-stat-number {\n    font-size: 34px;\n    font-weight: 800;\n    color: #b5384a;\n    margin: 0 0 6px 0;\n  }\n  .agg-stat-label {\n    font-size: 13px;\n    color: #555;\n    margin: 0;\n    max-width: 160px;\n  }\n  .agg-proof-quotes {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 20px;\n  }\n  .agg-quote {\n    background: #faf5f6;\n    border-radius: 12px;\n    padding: 22px;\n    box-sizing: border-box;\n  }\n  .agg-quote-stars {\n    color: #b5384a;\n    font-size: 14px;\n    letter-spacing: 1px;\n    margin-bottom: 10px;\n  }\n  .agg-quote-text {\n    font-size: 14px;\n    line-height: 1.55;\n    color: #1a1a1a;\n    margin: 0 0 12px 0;\n  }\n  .agg-quote-name {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #555;\n    margin: 0;\n  }\n  @media (max-width: 900px) {\n    .agg-proof-quotes {\n      grid-template-columns: 1fr;\n    }\n    .agg-proof-stats {\n      gap: 30px;\n    }\n  }\n  @media (max-width: 480px) {\n    .agg-stat-number {\n      font-size: 26px;\n    }\n    .agg-stat-label {\n      font-size: 12px;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_KEeYgd": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"concern-nav-section\">\n  <h2 class=\"concern-nav-heading\">Not sure where to start? Shop by concern.</h2>\n  <div class=\"concern-nav-grid\">\n    <a href=\"#aloe-pdrn-calming-serum\" class=\"concern-card concern-green\">\n      <p class=\"concern-title\">Redness &amp; Irritation</p>\n      <p class=\"concern-sub\">Aloe PDRN Calming Serum</p>\n    </a>\n    <a href=\"#vitamin-illuminating-cream\" class=\"concern-card concern-yellow\">\n      <p class=\"concern-title\">Dark Spots &amp; Dullness</p>\n      <p class=\"concern-sub\">Vitamin Illuminating Cream</p>\n    </a>\n    <a href=\"#bakuchiol-plumping-serum\" class=\"concern-card concern-purple\">\n      <p class=\"concern-title\">Fine Lines &amp; Pores</p>\n      <p class=\"concern-sub\">Bakuchiol Plumping Serum</p>\n    </a>\n    <a href=\"#bakuchiol-plumping-capsule-cream\" class=\"concern-card concern-purple\">\n      <p class=\"concern-title\">Firmness &amp; Elasticity</p>\n      <p class=\"concern-sub\">Bakuchiol Plumping Capsule Cream</p>\n    </a>\n  </div>\n</div>\n<style>\n  .concern-nav-section {\n    font-family: Arial, Helvetica, sans-serif;\n    max-width: 1200px;\n    margin: 0 auto;\n    padding: 20px;\n    box-sizing: border-box;\n  }\n  .concern-nav-heading {\n    text-align: center;\n    font-size: 24px;\n    font-weight: 800;\n    color: #1a1a1a;\n    margin: 0 0 24px 0;\n  }\n  .concern-nav-grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 16px;\n  }\n  .concern-card {\n    display: block;\n    text-decoration: none;\n    border-radius: 12px;\n    padding: 24px 18px;\n    text-align: center;\n    transition: transform 0.15s ease;\n  }\n  .concern-card:hover {\n    transform: translateY(-3px);\n  }\n  .concern-green { background: #eaf4e5; }\n  .concern-yellow { background: #fdf3d0; }\n  .concern-purple { background: #f0e6f7; }\n  .concern-title {\n    font-size: 15px;\n    font-weight: 700;\n    color: #1a1a1a;\n    margin: 0 0 6px 0;\n  }\n  .concern-sub {\n    font-size: 12.5px;\n    color: #555;\n    margin: 0;\n  }\n  @media (max-width: 900px) {\n    .concern-nav-grid {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n  @media (max-width: 480px) {\n    .concern-nav-heading {\n      font-size: 19px;\n    }\n    .concern-nav-grid {\n      gap: 12px;\n    }\n    .concern-card {\n      padding: 18px 12px;\n    }\n  }\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -150,6 +172,8 @@
     "subs",
     "product-grid",
     "recently-viewed",
-    "multicolumn"
+    "multicolumn",
+    "custom_liquid_KEeYgd",
+    "custom_liquid_8M7ehP"
   ]
 }
