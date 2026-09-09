@@ -33,8 +33,15 @@
             "price_size": "medium"
           }
         },
+        "custom_liquid_iWetfa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"price-block\">\n  <span class=\"price-original\">$139<span class=\"price-decimal\">.99</span></span>\n  <span class=\"price-current\">$<span class=\"price-main\">99</span><span class=\"price-decimal-current\">.99</span></span>\n  <span class=\"price-badge\">Save $40</span>\n</div>\n\n<style>\n  .price-block {\n    font-family: Arial, Helvetica, sans-serif;\n    display: flex;\n    align-items: baseline;\n    gap: 10px;\n    flex-wrap: wrap;\n  }\n\n  .price-original {\n    font-size: 18px;\n    color: #999;\n    text-decoration: line-through;\n    font-weight: 500;\n  }\n\n  .price-decimal {\n    font-size: 13px;\n  }\n\n  .price-current {\n    font-size: 28px;\n    font-weight: 800;\n    color: #3f7ea6;\n    line-height: 1;\n  }\n\n  .price-main {\n    font-size: 28px;\n    font-weight: 800;\n  }\n\n  .price-decimal-current {\n    font-size: 16px;\n    font-weight: 700;\n  }\n\n  .price-badge {\n    background: #eaf2f6;\n    color: #3f7ea6;\n    font-size: 13px;\n    font-weight: 700;\n    padding: 4px 10px;\n    border-radius: 6px;\n    align-self: center;\n  }\n\n  @media (max-width: 480px) {\n    .price-block {\n      gap: 8px;\n    }\n\n    .price-original {\n      font-size: 15px;\n    }\n\n    .price-current,\n    .price-main {\n      font-size: 22px;\n    }\n\n    .price-decimal-current {\n      font-size: 13px;\n    }\n\n    .price-badge {\n      font-size: 11px;\n      padding: 3px 8px;\n    }\n  }\n</style>"
+          }
+        },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "price_size": "medium",
             "show_badges": true,
@@ -113,6 +120,7 @@
       "block_order": [
         "custom_liquid_Q4eMAn",
         "title",
+        "custom_liquid_iWetfa",
         "price",
         "custom_liquid_yRQmCt",
         "text_XfnRxT",
