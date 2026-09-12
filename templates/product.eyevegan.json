@@ -1,0 +1,349 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_Q4eMAn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #9e132b; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>394+</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h1",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_yRQmCt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .oil-benefits {\n    background-color: #FFFFFF;\n    padding: clamp(20px, 5vw, 48px) clamp(18px, 6vw, 56px);\n    max-width: 640px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    font-family: Georgia, 'Times New Roman', serif;\n    color: #1a1a1a;\n  }\n\n  .oil-benefits * {\n    box-sizing: border-box;\n  }\n\n  .oil-benefits__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    column-gap: clamp(10px, 4vw, 40px);\n    row-gap: clamp(12px, 3vw, 26px);\n  }\n\n  .oil-benefits__item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n\n  .oil-benefits__icon {\n    flex: 0 0 auto;\n    width: clamp(18px, 5vw, 28px);\n    height: clamp(18px, 5vw, 28px);\n    stroke: #1a1a1a;\n    fill: none;\n    stroke-width: 1.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .oil-benefits__label {\n    font-family: Helvetica, Arial, sans-serif;\n    font-weight: 700;\n    font-size: clamp(10px, 3vw, 14px);\n    letter-spacing: 0.02em;\n    text-transform: uppercase;\n    line-height: 1.25;\n  }\n</style>\n\n<div class=\"oil-benefits\">\n  <div class=\"oil-benefits__grid\">\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M16 4 C16 4 10 8 10 14 C10 18 12 20 16 20 C20 20 22 18 22 14 C22 8 16 4 16 4 Z\"/>\n        <path d=\"M16 20 L16 28\"/>\n        <path d=\"M16 24 C13 24 11 26 10 28\"/>\n        <path d=\"M16 24 C19 24 21 26 22 28\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Regrows Edges</span>\n    </div>\n\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M22 4 C14 4 8 12 8 22 C8 25 9 27 9 27 C9 27 15 27 20 21 C25 15 26 8 22 4 Z\"/>\n        <path d=\"M9 27 L20 15\"/>\n        <path d=\"M12 20 L16 20\"/>\n        <path d=\"M15 16 L19 16\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Restores Shine</span>\n    </div>\n\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M16 4 L16 16\"/>\n        <path d=\"M16 8 C13 6 9 6 6 8\"/>\n        <path d=\"M16 8 C19 6 23 6 26 8\"/>\n        <path d=\"M16 12 C13.5 10.5 10.5 10.5 8 12\"/>\n        <path d=\"M16 12 C18.5 10.5 21.5 10.5 24 12\"/>\n        <path d=\"M10 22 C10 18 12 16 16 16 C20 16 22 18 22 22\"/>\n        <path d=\"M10 22 C10 26 12 28 16 28 C20 28 22 26 22 22\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Nourishes The Scalp</span>\n    </div>\n\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M11 28 C9 24 8 20 8 16 C8 13 9.5 11 11 11 C12.5 11 13 13 13 15\"/>\n        <path d=\"M13 15 L13 9 C13 7 14.5 6 16 6 C17.5 6 19 7 19 9 L19 15\"/>\n        <path d=\"M19 15 C19 13 20.5 12 22 12 C23.5 12 25 13.5 25 16 C25 21 23 25 20 28\"/>\n        <path d=\"M13 15 L19 15\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Strengthens Follicles</span>\n    </div>\n\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M9 26 C9 20 10 16 13 13 C16 10 18 9 18 6\"/>\n        <path d=\"M9 26 C7 24 6 21 7 18\"/>\n        <path d=\"M13 20 C15 19 17 17 18 15\"/>\n        <path d=\"M16 24 C18 23 19.5 21.5 20 20\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Improves Elasticity</span>\n    </div>\n\n    <div class=\"oil-benefits__item\">\n      <svg class=\"oil-benefits__icon\" viewBox=\"0 0 32 32\">\n        <path d=\"M16 5 C16 5 9 15 9 20 C9 24.4 12.1 28 16 28 C19.9 28 23 24.4 23 20 C23 15 16 5 16 5 Z\"/>\n      </svg>\n      <span class=\"oil-benefits__label\">Prevents Breakage</span>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "text_XfnRxT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "Transform your face with this vegan, cruelty-free foundation designed to deliver the perfect match of your skin tone.",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "dropdown",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_PigjTJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "custom_liquid_YMTnpV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .social-proof-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    max-width: 600px;\n  }\n  .social-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 14px 18px;\n    display: flex;\n    align-items: center;\n    gap: 14px;\n  }\n  .avatars {\n    display: flex;\n    flex-shrink: 0;\n  }\n  .avatar {\n    width: 38px;\n    height: 38px;\n    border-radius: 50%;\n    border: 2px solid #fff;\n    overflow: hidden;\n    background: #ddd;\n  }\n  .avatar:nth-child(2) {\n    margin-left: -10px;\n  }\n  .avatar img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n  .social-text {\n    font-size: 14px;\n    color: #222;\n    line-height: 1.5;\n  }\n  .social-text strong {\n    font-weight: 700;\n  }\n  .guarantee-row {\n    background: #f5ede8;\n    border-radius: 14px;\n    padding: 16px 18px;\n  }\n  .guarantee-row p {\n    margin: 0;\n    font-size: 14px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .guarantee-row p.gtitle {\n    font-weight: 700;\n    margin-bottom: 4px;\n  }\n</style>\n\n<div class=\"social-proof-wrap\">\n  <div class=\"social-row\">\n    <div class=\"avatars\">\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=12\" alt=\"Karim\" />\n      </div>\n      <div class=\"avatar\">\n        <img src=\"https://i.pravatar.cc/80?img=15\" alt=\"Rami\" />\n      </div>\n    </div>\n    <div class=\"social-text\">\n      <strong>Clara, Lara</strong> and <strong>1k+ others</strong> are using <strong>JOLIE</strong>\n    </div>\n  </div>\n  <div class=\"guarantee-row\">\n    <p class=\"gtitle\">30-Day Money-Back Guarantee</p>\n    <p>Enjoy a 30-day money-back guarantee, with less than 1% of customers requesting a refund.</p>\n  </div>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_Q4eMAn",
+        "title",
+        "price",
+        "custom_liquid_yRQmCt",
+        "text_XfnRxT",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_PigjTJ",
+        "related_buttons",
+        "sticky_cart",
+        "custom_liquid_YMTnpV"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_KL9pzK": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .batana-features {\n    background-color: #FBF8ED;\n    padding: clamp(32px, 6vw, 72px) clamp(20px, 6vw, 56px);\n    max-width: 1200px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    font-family: Georgia, 'Times New Roman', serif;\n    text-align: center;\n  }\n\n  .batana-features * {\n    box-sizing: border-box;\n  }\n\n  .batana-features__heading {\n    font-size: clamp(28px, 5.5vw, 48px);\n    line-height: 1.2;\n    color: #1B3B2F;\n    margin: 0 0 clamp(16px, 3vw, 24px) 0;\n    font-weight: 400;\n  }\n\n  .batana-features__subtext {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(14px, 2.4vw, 18px);\n    line-height: 1.6;\n    color: #2b2b28;\n    max-width: 640px;\n    margin: 0 auto clamp(32px, 6vw, 56px) auto;\n  }\n\n  .batana-features__grid {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: clamp(24px, 4vw, 40px);\n  }\n\n  .batana-features__item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .batana-features__badge {\n    width: clamp(64px, 12vw, 96px);\n    height: clamp(64px, 12vw, 96px);\n    border-radius: 50%;\n    background-color: #EDE7D6;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin-bottom: clamp(14px, 2.5vw, 20px);\n  }\n\n  .batana-features__icon {\n    width: clamp(30px, 5.5vw, 42px);\n    height: clamp(30px, 5.5vw, 42px);\n  }\n\n  .batana-features__title {\n    font-size: clamp(15px, 2.4vw, 20px);\n    color: #1B3B2F;\n    margin: 0 0 8px 0;\n    font-weight: 400;\n  }\n\n  .batana-features__desc {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(11px, 1.9vw, 14px);\n    line-height: 1.55;\n    color: #4a4a45;\n    margin: 0;\n    max-width: 220px;\n  }\n\n  @media (max-width: 700px) {\n    .batana-features__grid {\n      grid-template-columns: repeat(2, 1fr);\n    }\n  }\n</style>\n\n<div class=\"batana-features\">\n  <h2 class=\"batana-features__heading\">Thousands of <br>queens choose our oil</h2>\n  <p class=\"batana-features__subtext\">\n    In a world full of chemical-laced fakes, thousands of queens choose the original-Batana Oil\n  </p>\n\n  <div class=\"batana-features__grid\">\n    <div class=\"batana-features__item\">\n      <div class=\"batana-features__badge\">\n        <svg class=\"batana-features__icon\" viewBox=\"0 0 48 48\" fill=\"none\">\n          <path d=\"M20 10 C20 10 30 12 34 20 C36 24 35 28 32 30 C28 26 24 22 20 10 Z\" stroke=\"#1B3B2F\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/>\n          <path d=\"M20 10 C23 14 25 18 26 22\" stroke=\"#1B3B2F\" stroke-width=\"1.2\"/>\n          <path d=\"M22 14 C24 15 26 17 27 19\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n          <path d=\"M24 18 C26 19 28 21 29 23\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n          <path d=\"M20 10 C17 13 15 16 14 19\" stroke=\"#1B3B2F\" stroke-width=\"1.2\"/>\n          <path d=\"M18 13 C16 14 14 16 13 18\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n          <path d=\"M16 16 C14 17 12 19 11 21\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n          <circle cx=\"14\" cy=\"12\" r=\"0.8\" fill=\"#1B3B2F\"/>\n          <path d=\"M31 29 C31 31 29.5 32.5 28.5 33.5 C27.5 32.5 26 31 26 29 C26 27.3 27.3 26 28.5 26 C29.7 26 31 27.3 31 29 Z\" fill=\"#E7A93C\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n          <path d=\"M35 32 C35 33.5 34 34.6 33.2 35.4 C32.4 34.6 31.4 33.5 31.4 32 C31.4 30.7 32.3 29.8 33.2 29.8 C34.1 29.8 35 30.7 35 32 Z\" fill=\"#E7A93C\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n        </svg>\n      </div>\n      <h3 class=\"batana-features__title\">100% Pure Batana Oil</h3>\n      <p class=\"batana-features__desc\">Sourced directly from the American palm tree, no fillers or blends.</p>\n    </div>\n\n    <div class=\"batana-features__item\">\n      <div class=\"batana-features__badge\">\n        <svg class=\"batana-features__icon\" viewBox=\"0 0 48 48\" fill=\"none\">\n          <rect x=\"12\" y=\"26\" width=\"18\" height=\"12\" rx=\"2\" fill=\"#E7A93C\" opacity=\"0.35\" stroke=\"#1B3B2F\" stroke-width=\"1.4\"/>\n          <path d=\"M21 26 C21 20 21 15 24 11 C25 9.5 26.5 9 27 10 C27.5 11 26 12.5 25 13.5\" stroke=\"#1B3B2F\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>\n          <circle cx=\"21\" cy=\"30\" r=\"3\" fill=\"#FBF8ED\" stroke=\"#1B3B2F\" stroke-width=\"1.4\"/>\n        </svg>\n      </div>\n      <h3 class=\"batana-features__title\">Hair Growth Focused</h3>\n      <p class=\"batana-features__desc\">Traditionally used to revive thinning edges &amp; bald spots.</p>\n    </div>\n\n    <div class=\"batana-features__item\">\n      <div class=\"batana-features__badge\">\n        <svg class=\"batana-features__icon\" viewBox=\"0 0 48 48\" fill=\"none\">\n          <path d=\"M24 12 L26 20 L34 22 L26 24 L24 32 L22 24 L14 22 L22 20 Z\" fill=\"#E7A93C\" stroke=\"#1B3B2F\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/>\n          <path d=\"M33 28 L34 32 L38 33 L34 34 L33 38 L32 34 L28 33 L32 32 Z\" fill=\"#EDE7D6\" stroke=\"#1B3B2F\" stroke-width=\"1\" stroke-linejoin=\"round\"/>\n        </svg>\n      </div>\n      <h3 class=\"batana-features__title\">Deeply Restorative</h3>\n      <p class=\"batana-features__desc\">Repairs breakage, dryness, and split ends from root to tip.</p>\n    </div>\n\n    <div class=\"batana-features__item\">\n      <div class=\"batana-features__badge\">\n        <svg class=\"batana-features__icon\" viewBox=\"0 0 48 48\" fill=\"none\">\n          <path d=\"M24 12 C31 12 36 17 36 24 C36 31 31 36 24 36 C17 36 12 31 12 24 C12 17 17 12 24 12 Z\" stroke=\"#1B3B2F\" stroke-width=\"1.4\"/>\n          <path d=\"M18 24 C18 24 20 18 24 18 C28 18 26 26 24 30 C22 34 18 30 18 24 Z\" fill=\"#E7A93C\" opacity=\"0.5\" stroke=\"#1B3B2F\" stroke-width=\"1.2\"/>\n          <path d=\"M24 18 L24 30\" stroke=\"#1B3B2F\" stroke-width=\"1\"/>\n        </svg>\n      </div>\n      <h3 class=\"batana-features__title\">Lightweight &amp; Absorbent</h3>\n      <p class=\"batana-features__desc\">Nourishes your hair and scalp deeply, without greasiness or buildup.</p>\n    </div>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_cqKTNy": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .batana-stats {\n    background-color: #FBF8ED;\n    padding: clamp(32px, 6vw, 72px) clamp(20px, 6vw, 56px);\n    max-width: 1200px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    font-family: Georgia, 'Times New Roman', serif;\n    text-align: center;\n  }\n\n  .batana-stats * {\n    box-sizing: border-box;\n  }\n\n  .batana-stats__heading {\n    font-size: clamp(28px, 5.5vw, 48px);\n    line-height: 1.2;\n    color: #1B3B2F;\n    margin: 0 0 clamp(16px, 3vw, 24px) 0;\n    font-weight: 400;\n  }\n\n  .batana-stats__heading em {\n    font-style: italic;\n  }\n\n  .batana-stats__subtext {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(14px, 2.2vw, 18px);\n    line-height: 1.6;\n    color: #2b2b28;\n    max-width: 680px;\n    margin: 0 auto clamp(36px, 6vw, 64px) auto;\n  }\n\n  .batana-stats__grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: clamp(24px, 4vw, 48px);\n    text-align: left;\n  }\n\n  .batana-stats__item {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .batana-stats__top {\n    display: flex;\n    align-items: flex-end;\n    justify-content: space-between;\n    gap: 12px;\n    margin-bottom: 10px;\n  }\n\n  .batana-stats__percent {\n    font-size: clamp(36px, 7vw, 56px);\n    color: #1B3B2F;\n    line-height: 1;\n    font-weight: 400;\n  }\n\n  .batana-stats__jar {\n    flex: 0 0 auto;\n  }\n\n  .batana-stats__bar {\n    height: clamp(60px, 9vw, 90px);\n    border-radius: 4px;\n    background-color: #E4D3AE;\n    background-image: repeating-linear-gradient(\n      -45deg,\n      #D8C093 0,\n      #D8C093 2px,\n      transparent 2px,\n      transparent 8px\n    );\n    margin-bottom: clamp(14px, 2.5vw, 20px);\n  }\n\n  .batana-stats__desc {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(13px, 2vw, 15px);\n    line-height: 1.5;\n    color: #2b2b28;\n    margin: 0;\n  }\n\n  .batana-stats__desc strong {\n    font-weight: 700;\n  }\n\n  @media (max-width: 700px) {\n    .batana-stats__grid {\n      grid-template-columns: 1fr;\n      gap: 32px;\n    }\n  }\n</style>\n\n<div class=\"batana-stats\">\n  <h2 class=\"batana-stats__heading\">Backed by <em>Testing</em>,<br>Not Just Promises.</h2>\n  <p class=\"batana-stats__subtext\">\n    Every batch of our oil undergoes third-party testing to confirm unmatched purity and potency. While others rely on claims, we rely on data&mdash;and the results speak for themselves.\n  </p>\n\n  <div class=\"batana-stats__grid\">\n    <div class=\"batana-stats__item\">\n      <div class=\"batana-stats__top\">\n        <span class=\"batana-stats__percent\">96%</span>\n        <svg class=\"batana-stats__jar\" width=\"52\" height=\"60\" viewBox=\"0 0 52 60\" fill=\"none\">\n          <path d=\"M20 6 C20 6 22 2 26 2 C30 2 32 6 32 6 L32 10 L20 10 Z\" fill=\"#3B2410\"/>\n          <rect x=\"14\" y=\"10\" width=\"24\" height=\"8\" rx=\"2\" fill=\"#5A3A1E\"/>\n          <rect x=\"12\" y=\"18\" width=\"28\" height=\"38\" rx=\"4\" fill=\"#7A4A22\" stroke=\"#3B2410\" stroke-width=\"1\"/>\n          <rect x=\"14\" y=\"26\" width=\"24\" height=\"14\" fill=\"#8FD8CC\"/>\n          <text x=\"26\" y=\"33\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4.5\" font-weight=\"700\" fill=\"#1B3B2F\">BATANA</text>\n          <text x=\"26\" y=\"38\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4\" fill=\"#1B3B2F\">OIL</text>\n          <rect x=\"16\" y=\"40\" width=\"20\" height=\"5\" fill=\"#F2A03D\"/>\n          <text x=\"26\" y=\"44\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"3.2\" font-weight=\"700\" fill=\"#3B2410\">100%</text>\n        </svg>\n      </div>\n      <div class=\"batana-stats__bar\"></div>\n      <p class=\"batana-stats__desc\"><strong>96%</strong> saw stronger hair with less breakage and shedding</p>\n    </div>\n\n    <div class=\"batana-stats__item\">\n      <div class=\"batana-stats__top\">\n        <span class=\"batana-stats__percent\">93%</span>\n        <svg class=\"batana-stats__jar\" width=\"52\" height=\"60\" viewBox=\"0 0 52 60\" fill=\"none\">\n          <path d=\"M20 6 C20 6 22 2 26 2 C30 2 32 6 32 6 L32 10 L20 10 Z\" fill=\"#3B2410\"/>\n          <rect x=\"14\" y=\"10\" width=\"24\" height=\"8\" rx=\"2\" fill=\"#5A3A1E\"/>\n          <rect x=\"12\" y=\"18\" width=\"28\" height=\"38\" rx=\"4\" fill=\"#7A4A22\" stroke=\"#3B2410\" stroke-width=\"1\"/>\n          <rect x=\"14\" y=\"26\" width=\"24\" height=\"14\" fill=\"#8FD8CC\"/>\n          <text x=\"26\" y=\"33\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4.5\" font-weight=\"700\" fill=\"#1B3B2F\">BATANA</text>\n          <text x=\"26\" y=\"38\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4\" fill=\"#1B3B2F\">OIL</text>\n          <rect x=\"16\" y=\"40\" width=\"20\" height=\"5\" fill=\"#F2A03D\"/>\n          <text x=\"26\" y=\"44\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"3.2\" font-weight=\"700\" fill=\"#3B2410\">100%</text>\n        </svg>\n      </div>\n      <div class=\"batana-stats__bar\"></div>\n      <p class=\"batana-stats__desc\"><strong>93%</strong> reported new growth along thinning edges &amp; alopecia patches</p>\n    </div>\n\n    <div class=\"batana-stats__item\">\n      <div class=\"batana-stats__top\">\n        <span class=\"batana-stats__percent\">86%</span>\n        <svg class=\"batana-stats__jar\" width=\"52\" height=\"60\" viewBox=\"0 0 52 60\" fill=\"none\">\n          <path d=\"M20 6 C20 6 22 2 26 2 C30 2 32 6 32 6 L32 10 L20 10 Z\" fill=\"#3B2410\"/>\n          <rect x=\"14\" y=\"10\" width=\"24\" height=\"8\" rx=\"2\" fill=\"#5A3A1E\"/>\n          <rect x=\"12\" y=\"18\" width=\"28\" height=\"38\" rx=\"4\" fill=\"#7A4A22\" stroke=\"#3B2410\" stroke-width=\"1\"/>\n          <rect x=\"14\" y=\"26\" width=\"24\" height=\"14\" fill=\"#8FD8CC\"/>\n          <text x=\"26\" y=\"33\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4.5\" font-weight=\"700\" fill=\"#1B3B2F\">BATANA</text>\n          <text x=\"26\" y=\"38\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"4\" fill=\"#1B3B2F\">OIL</text>\n          <rect x=\"16\" y=\"40\" width=\"20\" height=\"5\" fill=\"#F2A03D\"/>\n          <text x=\"26\" y=\"44\" text-anchor=\"middle\" font-family=\"Helvetica, Arial, sans-serif\" font-size=\"3.2\" font-weight=\"700\" fill=\"#3B2410\">100%</text>\n        </svg>\n      </div>\n      <div class=\"batana-stats__bar\"></div>\n      <p class=\"batana-stats__desc\"><strong>86%</strong> noticed visibly thicker, fuller hair overall</p>\n    </div>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_6Xj9FQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_QJYrYr": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_QJYrYr"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_X6KRyA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y6bCpT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural-Looking Freckles (No Skill, No Effort)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fXwrbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tired of <strong>uneven </strong>dots, streaky pencils, or freckles that look fake by lunchtime? This multi-point freckle stamp was built for real <strong>humans </strong>— not makeup artists.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6bCpT",
+        "text_fXwrbU"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/73869677-F4A8-4401-8032-7FD4C16C25BD_1060x_0331b5a5-d549-4c42-aed4-bc24160e24f9.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_pD6Mdt": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_CR4hbT": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_CR4hbT"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#000000",
+        "colors_background": "#e7d5c7",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_QWbLRi": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .batana-timeline {\n    background-color: #EEEEE4;\n    padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 56px);\n    max-width: 1100px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    font-family: Georgia, 'Times New Roman', serif;\n  }\n\n  .batana-timeline * {\n    box-sizing: border-box;\n  }\n\n  .batana-timeline__heading {\n    font-size: clamp(28px, 6vw, 52px);\n    line-height: 1.15;\n    color: #1B3B2F;\n    margin: 0 0 clamp(24px, 5vw, 40px) 0;\n    font-weight: 400;\n  }\n\n  .batana-timeline__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: clamp(16px, 3vw, 24px);\n  }\n\n  .batana-timeline__card {\n    background-color: #FBF8ED;\n    border: 1px solid #D9D6C6;\n    border-radius: 10px;\n    padding: clamp(18px, 3vw, 28px);\n  }\n\n  .batana-timeline__top {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    margin-bottom: clamp(14px, 2.5vw, 20px);\n  }\n\n  .batana-timeline__dot {\n    flex: 0 0 auto;\n    width: clamp(28px, 4vw, 36px);\n    height: clamp(28px, 4vw, 36px);\n    border-radius: 50%;\n    background-color: #4FA187;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .batana-timeline__dot span {\n    width: 45%;\n    height: 45%;\n    border-radius: 50%;\n    background-color: #1B3B2F;\n  }\n\n  .batana-timeline__badge {\n    background-color: #F2B84D;\n    color: #1B3B2F;\n    font-family: Helvetica, Arial, sans-serif;\n    font-weight: 700;\n    font-size: clamp(12px, 1.8vw, 14px);\n    padding: 6px 16px;\n    border-radius: 999px;\n    white-space: nowrap;\n  }\n\n  .batana-timeline__title {\n    font-size: clamp(17px, 2.6vw, 22px);\n    color: #12261E;\n    font-weight: 700;\n    line-height: 1.3;\n    margin: 0 0 10px 0;\n  }\n\n  .batana-timeline__desc {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(13px, 1.9vw, 15px);\n    line-height: 1.6;\n    color: #3a3a35;\n    margin: 0;\n  }\n\n  @media (max-width: 640px) {\n    .batana-timeline__grid {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<div class=\"batana-timeline\">\n  <h2 class=\"batana-timeline__heading\">Results to expect over time</h2>\n\n  <div class=\"batana-timeline__grid\">\n    <div class=\"batana-timeline__card\">\n      <div class=\"batana-timeline__top\">\n        <div class=\"batana-timeline__dot\"><span></span></div>\n        <div class=\"batana-timeline__badge\">Day 1-7</div>\n      </div>\n      <h3 class=\"batana-timeline__title\">Deep Nourishment &amp; Relief</h3>\n      <p class=\"batana-timeline__desc\">Dryness fades quickly as the oil penetrates deep into scalp and hair shafts. Irritation calms, hair feels softer and less brittle, and natural shine begins to return.</p>\n    </div>\n\n    <div class=\"batana-timeline__card\">\n      <div class=\"batana-timeline__top\">\n        <div class=\"batana-timeline__dot\"><span></span></div>\n        <div class=\"batana-timeline__badge\">Week 2&ndash;4</div>\n      </div>\n      <h3 class=\"batana-timeline__title\">Stronger Strands, Reduced Shedding</h3>\n      <p class=\"batana-timeline__desc\">Consistent use strengthens the roots and minimizes breakage. You&rsquo;ll notice fewer hairs on your pillow and in the shower. Scalp feels healthier and more balanced, helping to slow early thinning and alopecia-related shedding.</p>\n    </div>\n\n    <div class=\"batana-timeline__card\">\n      <div class=\"batana-timeline__top\">\n        <div class=\"batana-timeline__dot\"><span></span></div>\n        <div class=\"batana-timeline__badge\">Month 2</div>\n      </div>\n      <h3 class=\"batana-timeline__title\">Edges &amp; Alopecia Patches Begin to Fill In</h3>\n      <p class=\"batana-timeline__desc\">Thin or patchy areas especially around the hairline, edges, and alopecia spots show early signs of regrowth. New baby hairs begin to sprout, giving the hairline a fuller, more defined look.</p>\n    </div>\n\n    <div class=\"batana-timeline__card\">\n      <div class=\"batana-timeline__top\">\n        <div class=\"batana-timeline__dot\"><span></span></div>\n        <div class=\"batana-timeline__badge\">Month 3+</div>\n      </div>\n      <h3 class=\"batana-timeline__title\">Thicker, Healthier Growth</h3>\n      <p class=\"batana-timeline__desc\">Edges continue to thicken, alopecia patches improve, overall volume increases, and hair looks visibly stronger and denser. With less shedding and improved scalp health, growth feels consistent and long-lasting.</p>\n    </div>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_7Di8Dn": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"product-disclaimer\">\n  <p class=\"note\">⚠️ Please note: the product you receive may vary slightly in appearance from the pictures shown.</p>\n  <p class=\"promise\">✅ 100% same ingredients &nbsp;|&nbsp; ✅ 100% natural &nbsp;|&nbsp; ✅ No chemicals added</p>\n</div>\n\n<style>\n.product-disclaimer {\n  background-color: #fdf6ec;\n  border: 1px solid #e6d9b8;\n  border-left: 4px solid #d9a441;\n  border-radius: 8px;\n  padding: 14px 18px;\n  margin: 16px 0;\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n  color: #5a4a2f;\n  line-height: 1.5;\n}\n\n.product-disclaimer p {\n  margin: 4px 0;\n}\n\n.product-disclaimer .promise {\n  font-weight: 600;\n  color: #3f7d3f;\n}\n</style>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_bt3pmE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .batana-reviews {\n    background-color: #FBF8ED;\n    padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 56px);\n    max-width: 1200px;\n    margin: 0 auto;\n    box-sizing: border-box;\n    font-family: Georgia, 'Times New Roman', serif;\n    text-align: center;\n  }\n\n  .batana-reviews * {\n    box-sizing: border-box;\n  }\n\n  .batana-reviews__heading {\n    font-size: clamp(28px, 5.5vw, 48px);\n    line-height: 1.2;\n    color: #1B3B2F;\n    margin: 0 0 clamp(12px, 2vw, 16px) 0;\n    font-weight: 400;\n  }\n\n  .batana-reviews__subtext {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(14px, 2.2vw, 18px);\n    line-height: 1.6;\n    color: #2b2b28;\n    max-width: 640px;\n    margin: 0 auto clamp(32px, 5vw, 48px) auto;\n  }\n\n  .batana-reviews__grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: clamp(16px, 3vw, 24px);\n    text-align: left;\n  }\n\n  .batana-reviews__card {\n    background-color: #FFFFFF;\n    border: 1px solid #E3E0D2;\n    border-radius: 10px;\n    padding: clamp(18px, 3vw, 26px);\n    display: flex;\n    flex-direction: column;\n  }\n\n  .batana-reviews__stars {\n    color: #F2B84D;\n    font-size: clamp(14px, 2vw, 17px);\n    letter-spacing: 2px;\n    margin-bottom: 10px;\n  }\n\n  .batana-reviews__text {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: clamp(13px, 1.9vw, 15px);\n    line-height: 1.6;\n    color: #2b2b28;\n    margin: 0 0 clamp(16px, 2.5vw, 22px) 0;\n    flex-grow: 1;\n  }\n\n  .batana-reviews__person {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .batana-reviews__avatar {\n    flex: 0 0 auto;\n    width: 36px;\n    height: 36px;\n    border-radius: 50%;\n    background-color: #E4D3AE;\n    color: #1B3B2F;\n    font-family: Helvetica, Arial, sans-serif;\n    font-weight: 700;\n    font-size: 13px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .batana-reviews__meta {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .batana-reviews__name {\n    font-family: Helvetica, Arial, sans-serif;\n    font-weight: 700;\n    font-size: 13px;\n    color: #12261E;\n  }\n\n  .batana-reviews__location {\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 12px;\n    color: #6b6a63;\n  }\n\n  .batana-reviews__verified {\n    display: inline-flex;\n    align-items: center;\n    gap: 4px;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 11px;\n    color: #4FA187;\n    font-weight: 700;\n    margin-top: 12px;\n  }\n\n  @media (max-width: 860px) {\n    .batana-reviews__grid {\n      grid-template-columns: 1fr 1fr;\n    }\n  }\n\n  @media (max-width: 560px) {\n    .batana-reviews__grid {\n      grid-template-columns: 1fr;\n    }\n  }\n</style>\n\n<div class=\"batana-reviews\">\n  <h2 class=\"batana-reviews__heading\">Loved by queens everywhere</h2>\n  <p class=\"batana-reviews__subtext\">\n    Real results from real customers. Here&rsquo;s what they&rsquo;re saying after adding our oil to their routine.\n  </p>\n\n  <div class=\"batana-reviews__grid\">\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">My edges were so thin I stopped parting my hair in the middle. Two months in and the baby hairs are actually filling back in. I cried a little, not going to lie.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">RH</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Rania Haddad</span>\n          <span class=\"batana-reviews__location\">Beirut, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">I have alopecia patches near my temples and every product I tried made it worse before it got better. This one is the first that actually calmed my scalp from week one.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">MK</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Maya Khoury</span>\n          <span class=\"batana-reviews__location\">Jounieh, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">Not greasy at all, which was my biggest fear with an oil. Absorbs fast and my hairdresser actually asked what I changed because my ends look so much healthier.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">JN</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Joelle Nassar</span>\n          <span class=\"batana-reviews__location\">Zahle, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">Shedding has slowed down so much I stopped dreading shower day. My hairline near my edges is finally growing back after years of tight buns and braids.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">SC</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Sarah Abou Chakra</span>\n          <span class=\"batana-reviews__location\">Tripoli, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">Honestly skeptical at first because I&rsquo;ve tried every miracle oil out there. By month three my hair felt noticeably thicker and my scalp isn&rsquo;t itchy anymore.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">FK</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Farah Karam</span>\n          <span class=\"batana-reviews__location\">Saida, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n\n    <div class=\"batana-reviews__card\">\n      <div class=\"batana-reviews__stars\">&#9733;&#9733;&#9733;&#9733;&#9733;</div>\n      <p class=\"batana-reviews__text\">I use it twice a week and my mom already noticed how much fuller my ponytail looks. Smells clean too, not like the heavy oils I used before.</p>\n      <div class=\"batana-reviews__person\">\n        <div class=\"batana-reviews__avatar\">CN</div>\n        <div class=\"batana-reviews__meta\">\n          <span class=\"batana-reviews__name\">Christelle Nader</span>\n          <span class=\"batana-reviews__location\">Byblos, Lebanon</span>\n        </div>\n      </div>\n      <div class=\"batana-reviews__verified\">&#10003; Verified purchase</div>\n    </div>\n  </div>\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "custom_liquid_KL9pzK",
+    "custom_liquid_cqKTNy",
+    "scrolling_promotion_6Xj9FQ",
+    "image_with_text_X6KRyA",
+    "scrolling_promotion_pD6Mdt",
+    "custom_liquid_QWbLRi",
+    "custom_liquid_bt3pmE",
+    "custom_liquid_7Di8Dn"
+  ]
+}
